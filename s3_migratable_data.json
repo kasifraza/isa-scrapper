@@ -1,0 +1,2942 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-11",
+    "source": "isa-scraper/isa_media_data.json",
+    "description": "S3-migratable media items grouped by tab for per-folder migration",
+    "totalS3Migratable": 255,
+    "totalExcludedExternal": 189,
+    "totalBroken": 7,
+    "originalTotal": 451
+  },
+  "summary": {
+    "s3Migratable": {
+      "count": 255,
+      "byTab": {
+        "Press Releases": 190,
+        "Media Coverage": 25,
+        "Newsletters": 40
+      },
+      "bySourceFolder": {
+        "media_pdf": 191,
+        "multi_documents_upload": 4,
+        "multi_file_download": 11,
+        "isa_documents": 4,
+        "assets_front": 4,
+        "media_coverage": 1,
+        "news_letter_pdf": 40
+      }
+    },
+    "excluded": {
+      "count": 189,
+      "byReason": {
+        "youtube_external": 13,
+        "external_news_article": 171,
+        "google_drive_external": 2,
+        "facebook_external": 2,
+        "self_reference_page": 1
+      }
+    },
+    "broken": {
+      "count": 7,
+      "details": [
+        {
+          "index": 85,
+          "title": "",
+          "url": "https://old.isa.int/uploads/media_pdf/17206059857.pdf",
+          "issues": [
+            "empty_title"
+          ]
+        },
+        {
+          "index": 87,
+          "title": "",
+          "url": "https://old.isa.int/uploads/media_pdf/17206061308.pdf",
+          "issues": [
+            "empty_title"
+          ]
+        },
+        {
+          "index": 132,
+          "title": "MNRE Hosts 2nd Assembly of International Solar Alliance (ISA) on 31 October in New Delhi",
+          "url": "https://old.isa.int/uploads/media_pdf/null",
+          "issues": [
+            "broken_url_null"
+          ]
+        },
+        {
+          "index": 317,
+          "title": "DRC: the International Solar Alliance plans to install 3 15 megawatt solar stations",
+          "url": "https://old.isa.int/https%20//325b057e.isolation.zscaler.com/profile/a6b81f4b-c7aa-442e-92e4-82007a78be2a/zia-session/?c",
+          "issues": [
+            "broken_proxy_url",
+            "non_file_url"
+          ]
+        },
+        {
+          "index": 327,
+          "title": "Solar-agri projects to be launched in 10 African Countries",
+          "url": "https://old.isa.int/https%20//www.esi-africa.com/africa/solar-agri-projects-to-be-launched-in-10-african-countries/?utm_c",
+          "issues": [
+            "broken_proxy_url",
+            "non_file_url"
+          ]
+        },
+        {
+          "index": 379,
+          "title": "The Path Towards Africa $1.5 Trillion Green Hydrogen Economy",
+          "url": "https://old.isa.int/https%20//energycapitalpower.com/africa-1-5-trillion-green-hydrogen-economy/?utm_c",
+          "issues": [
+            "broken_proxy_url",
+            "non_file_url"
+          ]
+        },
+        {
+          "index": 398,
+          "title": "PLI funding for solar manufacturing to be raised to Rs 24,000 cr: Minister",
+          "url": "https://old.isa.int/The%20transformative%20potential%20of%20One%20Sun%20One%20World%20One%20Grid",
+          "issues": [
+            "non_file_url"
+          ]
+        }
+      ]
+    }
+  },
+  "data": {
+    "Press Releases": {
+      "count": 190,
+      "folders": {
+        "media_pdf": [
+          {
+            "originalIndex": 1,
+            "title": "International Solar Alliance to Convene Europe & Others Region Leaders in Brussels to Advance Global Solar Cooperation",
+            "date": "Jun 08, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1780984495_Europe_RCM_2026_Pre-Event_Media_Advisory_080626.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1780984495_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1780984495_Europe_RCM_2026_Pre-Event_Media_Advisory_080626.pdf",
+            "s3Key": "media_pdf/1780984495_Europe_RCM_2026_Pre-Event_Media_Advisory_080626.pdf"
+          },
+          {
+            "originalIndex": 2,
+            "title": "SA SIDS Dialogue – Pacific Drives Momentum for Bankable Solar Projects Across Island Economies",
+            "date": "Jun 03, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1780480036_SIDS_Dialogue_Press_Release.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1780480036_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1780480036_SIDS_Dialogue_Press_Release.pdf",
+            "s3Key": "media_pdf/1780480036_SIDS_Dialogue_Press_Release.pdf"
+          },
+          {
+            "originalIndex": 3,
+            "title": "New Momentum for Green Energy & Sustainable Finance Through India–Korea Partnership",
+            "date": "May 12, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1778588553_New_Momentum_for_Green_Energy__Sustainable_Finance_Through_IndiaKorea_Partnership.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1778588553_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1778588553_New_Momentum_for_Green_Energy__Sustainable_Finance_Through_IndiaKorea_Partnership.pdf",
+            "s3Key": "media_pdf/1778588553_New_Momentum_for_Green_Energy__Sustainable_Finance_Through_IndiaKorea_Partnership.pdf"
+          },
+          {
+            "originalIndex": 4,
+            "title": "UGANDA HOSTS THE INTERNATIONAL SOLAR ALLIANCE (ISA) HIGH LEVEL MISSION",
+            "date": "May 04, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1778153432_Uganda_Hosts_The_International_Solar_Alliance_ISA_High_Level_Mission.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1778153432_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1778153432_Uganda_Hosts_The_International_Solar_Alliance_ISA_High_Level_Mission.pdf",
+            "s3Key": "media_pdf/1778153432_Uganda_Hosts_The_International_Solar_Alliance_ISA_High_Level_Mission.pdf"
+          },
+          {
+            "originalIndex": 5,
+            "title": "ISA Operationalises Country Partnership Strategy Through High-Level Sri Lanka Mission",
+            "date": "Apr 07, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1775559730_ISA_SriLanka_Mission_PressRelease.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1775559730_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1775559730_ISA_SriLanka_Mission_PressRelease.pdf",
+            "s3Key": "media_pdf/1775559730_ISA_SriLanka_Mission_PressRelease.pdf"
+          },
+          {
+            "originalIndex": 6,
+            "title": "ISA and IIT Delhi Deepen Partnership to Advance Solar Skills Across Member Countries",
+            "date": "Feb 27, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1772172102_Press_Note_IITDelhiXISA_FFA.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1772172102_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1772172102_Press_Note_IITDelhiXISA_FFA.pdf",
+            "s3Key": "media_pdf/1772172102_Press_Note_IITDelhiXISA_FFA.pdf"
+          },
+          {
+            "originalIndex": 7,
+            "title": "AI and Digital Public Infrastructure Can Power the Next Leap in Energy for the Global South: New Op-Ed and ISA Pavilion Showcase at India AI Impact Summit",
+            "date": "Feb 19, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1771493671_President_Visit_to_ISA_Pavilion_190226_Press_Note.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1771493715_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1771493671_President_Visit_to_ISA_Pavilion_190226_Press_Note.pdf",
+            "s3Key": "media_pdf/1771493671_President_Visit_to_ISA_Pavilion_190226_Press_Note.pdf"
+          },
+          {
+            "originalIndex": 8,
+            "title": "Powering the Leapfrog: ISA Unveils Global Mission to Help 120+ Member Countries Fast-Track AI-Enabled Clean Energy",
+            "date": "Feb 16, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1771320697_AI_Summit_Press_Release_For_16_Feb.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1771320725_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1771320697_AI_Summit_Press_Release_For_16_Feb.pdf",
+            "s3Key": "media_pdf/1771320697_AI_Summit_Press_Release_For_16_Feb.pdf"
+          },
+          {
+            "originalIndex": 9,
+            "title": "International Solar Alliance to Spotlight AI, Scalable Solar Solutions and Global Capital Mobilisation at World Economic Forum 2026",
+            "date": "Jan 19, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1768829230_WEF2026_PreEventPressRelease.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1768829230_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1768829230_WEF2026_PreEventPressRelease.pdf",
+            "s3Key": "media_pdf/1768829230_WEF2026_PreEventPressRelease.pdf"
+          },
+          {
+            "originalIndex": 10,
+            "title": "Turning Sunlight into Solutions”: ISA and SELCO Foundation Partner Up for South-South Collaboration",
+            "date": "Jan 12, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1768285087_ISA_X_SELCO__Press_release.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1768285087_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1768285087_ISA_X_SELCO__Press_release.pdf",
+            "s3Key": "media_pdf/1768285087_ISA_X_SELCO__Press_release.pdf"
+          },
+          {
+            "originalIndex": 11,
+            "title": "International Solar Alliance (ISA) with the Government of India Hosts Official Pre Summit Convening on Global Artificial Intelligence (AI) Mission for Energy Ahead of AI Impact Summit 2026",
+            "date": "Dec 17, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1765957792_AI_Summit_Pre-Event_press_Note.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1765957792_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1765957792_AI_Summit_Pre-Event_press_Note.pdf",
+            "s3Key": "media_pdf/1765957792_AI_Summit_Pre-Event_press_Note.pdf"
+          },
+          {
+            "originalIndex": 12,
+            "title": "International Solar Alliance Announces Global SIDS Procurement Plan for Centralised Utility-Scale Solar and Storage at COP30",
+            "date": "Nov 24, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1764052216_SIDS_Action_Agenda_session_COP30_Press_Note_24.11.25.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1764052216_Press_release_banner.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1764052216_SIDS_Action_Agenda_session_COP30_Press_Note_24.11.25.pdf",
+            "s3Key": "media_pdf/1764052216_SIDS_Action_Agenda_session_COP30_Press_Note_24.11.25.pdf"
+          },
+          {
+            "originalIndex": 13,
+            "title": "International Solar Alliance (ISA) Announces Winners of SolarX Startup Challenge — Latin America & Caribbean Edition",
+            "date": "Nov 20, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1763650349_LAC_SolarX_Winners_PressNote_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1763650349_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1763650349_LAC_SolarX_Winners_PressNote_Final.pdf",
+            "s3Key": "media_pdf/1763650349_LAC_SolarX_Winners_PressNote_Final.pdf"
+          },
+          {
+            "originalIndex": 14,
+            "title": "International Solar Alliance (ISA) Announces Winners of SolarX Startup Challenge — Latin America & Caribbean Edition",
+            "date": "Nov 20, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1763650400_LAC_SolarX_Winners_PressNote_Final.docx",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1763650399_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1763650400_LAC_SolarX_Winners_PressNote_Final.docx",
+            "s3Key": "media_pdf/1763650400_LAC_SolarX_Winners_PressNote_Final.docx"
+          },
+          {
+            "originalIndex": 15,
+            "title": "India Leads the Global Solar Revolution Through Distribution Battery Storage and AI for Energy",
+            "date": "Nov 06, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1762425940_Press_Release-India_Leads_the_Global_Solar_Revolution_Through_Distribution_Battery_Storage_and_AI_for_Energy.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1762425940_isa_logo.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1762425940_Press_Release-India_Leads_the_Global_Solar_Revolution_Through_Distribution_Battery_Storage_and_AI_for_Energy.pdf",
+            "s3Key": "media_pdf/1762425940_Press_Release-India_Leads_the_Global_Solar_Revolution_Through_Distribution_Battery_Storage_and_AI_for_Energy.pdf"
+          },
+          {
+            "originalIndex": 16,
+            "title": "President Murmu Addresses Eighth Session of the ISA Assembly; Calls on the Global South to Lead Inclusive Solar Development Before Representatives from 137 Countries",
+            "date": "Oct 28, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1761674915_President_Murmu_Addresses_Eighth_Session_of_the_ISA_Assembly_Calls_on_the_Global_South_to_Lead_Inclusive_Solar_Development_Before_Representatives_from_137_Countries.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1761674545_isa_logo.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1761674915_President_Murmu_Addresses_Eighth_Session_of_the_ISA_Assembly_Calls_on_the_Global_South_to_Lead_Inclusive_Solar_Development_Before_Representatives_from_137_Countries.pdf",
+            "s3Key": "media_pdf/1761674915_President_Murmu_Addresses_Eighth_Session_of_the_ISA_Assembly_Calls_on_the_Global_South_to_Lead_Inclusive_Solar_Development_Before_Representatives_from_137_Countries.pdf"
+          },
+          {
+            "originalIndex": 17,
+            "title": "International Solar Alliance Hosts Curtain Raiser for the Eighth Session of the ISA Assembly to Unite Global Solar Efforts",
+            "date": "Oct 08, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1759938550_Press_Note_Curtain_Raiser.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1759938550_Press_release_banner.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1759938550_Press_Note_Curtain_Raiser.pdf",
+            "s3Key": "media_pdf/1759938550_Press_Note_Curtain_Raiser.pdf"
+          },
+          {
+            "originalIndex": 18,
+            "title": "The International Solar Alliance and Abia State, Nigeria Advance Energy Access with Landmark Mini-Grid Regulations",
+            "date": "Sep 10, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1757569443_Press_Note_Mini-Grids_Regulations_Validation_Session.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1757569485_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1757569443_Press_Note_Mini-Grids_Regulations_Validation_Session.pdf",
+            "s3Key": "media_pdf/1757569443_Press_Note_Mini-Grids_Regulations_Validation_Session.pdf"
+          },
+          {
+            "originalIndex": 19,
+            "title": "International Solar Alliance and African Leaders Unite in Accra to Chart Pathways for Africa's Solar Future",
+            "date": "Sep 04, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1757329320_Press_Release_Africa_RCM__030925.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1757329320_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1757329320_Press_Release_Africa_RCM__030925.pdf",
+            "s3Key": "media_pdf/1757329320_Press_Release_Africa_RCM__030925.pdf"
+          },
+          {
+            "originalIndex": 20,
+            "title": "ISA’s Africa Regional Meeting in Accra to Catalyse Solar Finance, Skills, and Innovation",
+            "date": "Aug 26, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1756270384_ISAs_Africa_Regional_Meeting_in_Accra_to_Catalyse_Solar_Finance_Skills_and_Innovation.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1756270384_ISAlogo.jpeg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1756270384_ISAs_Africa_Regional_Meeting_in_Accra_to_Catalyse_Solar_Finance_Skills_and_Innovation.pdf",
+            "s3Key": "media_pdf/1756270384_ISAs_Africa_Regional_Meeting_in_Accra_to_Catalyse_Solar_Finance_Skills_and_Innovation.pdf"
+          },
+          {
+            "originalIndex": 21,
+            "title": "International Solar Alliance and LAC Leaders Unite in Santiago to Accelerate the Region’s Clean Energy Transition",
+            "date": "Aug 06, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1754542020_Final_PostEvent_Press_Note_LAC_070825.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1754542020_ISAlogo.jpeg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1754542020_Final_PostEvent_Press_Note_LAC_070825.pdf",
+            "s3Key": "media_pdf/1754542020_Final_PostEvent_Press_Note_LAC_070825.pdf"
+          },
+          {
+            "originalIndex": 22,
+            "title": "International Solar Alliance to Host Seventh Regional Committee Meeting in Santiago to Accelerate Solar Innovation and Collaboration Across Latin America & the Caribbean Regio",
+            "date": "Jul 28, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1753774644_Pre-event_Press_Release_-_LAC_RCM_280725_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1753767102_ISAlogo.jpeg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1753774644_Pre-event_Press_Release_-_LAC_RCM_280725_Final.pdf",
+            "s3Key": "media_pdf/1753774644_Pre-event_Press_Release_-_LAC_RCM_280725_Final.pdf"
+          },
+          {
+            "originalIndex": 23,
+            "title": "Sri Lanka’s Prime Minister Champions Regional Solar Cooperation to Drive Inclusive Growth at ISA Asia-Pacific Committee Meeting",
+            "date": "Jul 17, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1752744478_Press_Release_APACRCM_16_July_2025_FINAL.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1752744478_isa-logo-web-1636650553354.gif",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1752744478_Press_Release_APACRCM_16_July_2025_FINAL.pdf",
+            "s3Key": "media_pdf/1752744478_Press_Release_APACRCM_16_July_2025_FINAL.pdf"
+          },
+          {
+            "originalIndex": 24,
+            "title": "ISA’s Global Solar Platforms Take Centre Stage at World Expo 2025: CEO Caucus and International Solar Festival Inspire Collaboration, Innovation, and Youth Leadership",
+            "date": "Jul 08, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1751950446_Post_Event_Pess_note_CEO_Caucus__ISF_2025.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1751950327_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1751950446_Post_Event_Pess_note_CEO_Caucus__ISF_2025.pdf",
+            "s3Key": "media_pdf/1751950446_Post_Event_Pess_note_CEO_Caucus__ISF_2025.pdf"
+          },
+          {
+            "originalIndex": 25,
+            "title": "Catalysing Solar Cooperation: ISA’s Seventh Regional Committee Meeting (RCM) for the Asia and the Pacific Region Set to Advance Regional Partnerships",
+            "date": "Jul 07, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1751866469_APAC_RCM_Pre_Event_Press_Note.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1751866366_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1751866469_APAC_RCM_Pre_Event_Press_Note.pdf",
+            "s3Key": "media_pdf/1751866469_APAC_RCM_Pre_Event_Press_Note.pdf"
+          },
+          {
+            "originalIndex": 26,
+            "title": "ISA’s International Solar Festival goes global: Second edition to showcase CEO Caucus, celebrating youth led innovation and cultural bonding at World Expo 2025, Japan",
+            "date": "Jun 29, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1751249607_CEO_Caucus__ISF_Press_Note.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1751249607_Press_release_banner.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1751249607_CEO_Caucus__ISF_Press_Note.pdf",
+            "s3Key": "media_pdf/1751249607_CEO_Caucus__ISF_Press_Note.pdf"
+          },
+          {
+            "originalIndex": 27,
+            "title": "Fuelling a Greener Tomorrow: ISA and ADB Spotlight Green Hydrogen at ACEF 2025",
+            "date": "Jun 24, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1750751943_Press_Note_ACEF_2025.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1750751943_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1750751943_Press_Note_ACEF_2025.pdf",
+            "s3Key": "media_pdf/1750751943_Press_Note_ACEF_2025.pdf"
+          },
+          {
+            "originalIndex": 28,
+            "title": "ISA’s Sixth Regional Committee Meeting in Brussels Calls for Collective Action – Says ‘Strategic Leadership from Europe Can Accelerate Clean Energy for All’",
+            "date": "Jun 12, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1749793932_Europe_RCM_PressRelease_Final_110625.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1749667765_serviceorg-normal.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1749793932_Europe_RCM_PressRelease_Final_110625.pdf",
+            "s3Key": "media_pdf/1749793932_Europe_RCM_PressRelease_Final_110625.pdf"
+          },
+          {
+            "originalIndex": 29,
+            "title": "International Solar Alliance to Host Sixth Regional Committee Meeting for Europe & Other Regions in Brussels",
+            "date": "Jun 04, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1749039221_Europe_Regional_Committee_Meeting__Pre-event_Press_Release_040625.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1749039221_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1749039221_Europe_Regional_Committee_Meeting__Pre-event_Press_Release_040625.pdf",
+            "s3Key": "media_pdf/1749039221_Europe_Regional_Committee_Meeting__Pre-event_Press_Release_040625.pdf"
+          },
+          {
+            "originalIndex": 30,
+            "title": "Driving Green: International Solar Alliance Advances Solar Electric Mobility with Global Partners at World Expo 2025",
+            "date": "May 30, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1748615743_Press_Note_Theme_Week_Event_Japan_Expo.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1748615743_1734426196_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1748615743_Press_Note_Theme_Week_Event_Japan_Expo.pdf",
+            "s3Key": "media_pdf/1748615743_Press_Note_Theme_Week_Event_Japan_Expo.pdf"
+          },
+          {
+            "originalIndex": 31,
+            "title": "International Solar Alliance (ISA) Announces SolarX Startup Challenge 2025: Latin America & the Caribbean Edition",
+            "date": "May 20, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1747746194_Press_Note_-_Solar_X_Start_Up_Latin_America__the_Caribbean.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1747746194_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1747746194_Press_Note_-_Solar_X_Start_Up_Latin_America__the_Caribbean.pdf",
+            "s3Key": "media_pdf/1747746194_Press_Note_-_Solar_X_Start_Up_Latin_America__the_Caribbean.pdf"
+          },
+          {
+            "originalIndex": 32,
+            "title": "Shri Pralhad Joshi, Hon’ble Minister for New and Renewable Energy, India & President of the ISA Assembly, Visits ISA Secretariat on Earth Day",
+            "date": "Apr 23, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1745386658_Shri_Pralhad_Joshi_Honble_Minister_for_New_and_Renewable_Energy_India__Honble_President_of_the_ISA_Assembly_Visits_ISA_Secretariat_on_Earth_Day_1.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1745386658_Press_release_banner.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1745386658_Shri_Pralhad_Joshi_Honble_Minister_for_New_and_Renewable_Energy_India__Honble_President_of_the_ISA_Assembly_Visits_ISA_Secretariat_on_Earth_Day_1.pdf",
+            "s3Key": "media_pdf/1745386658_Shri_Pralhad_Joshi_Honble_Minister_for_New_and_Renewable_Energy_India__Honble_President_of_the_ISA_Assembly_Visits_ISA_Secretariat_on_Earth_Day_1.pdf"
+          },
+          {
+            "originalIndex": 33,
+            "title": "Mauritius Becomes Fourth Nation to Join ISA’s Country Partnership Framework",
+            "date": "Apr 10, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1750059984_ISA_Mauritius_CPF_PressNote_10042025_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1750059984_logo-1-2-1920x6081.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1750059984_ISA_Mauritius_CPF_PressNote_10042025_Final.pdf",
+            "s3Key": "media_pdf/1750059984_ISA_Mauritius_CPF_PressNote_10042025_Final.pdf"
+          },
+          {
+            "originalIndex": 34,
+            "title": "Mauritius Hosts the SolarX Accelerator Programme in Collaboration with the International Solar Alliance and Business Mauritius",
+            "date": "Apr 08, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1744351095_ISA_Business_Mauritius_host_SolarX_Global_Accelerator.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1744351186_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1744351095_ISA_Business_Mauritius_host_SolarX_Global_Accelerator.pdf",
+            "s3Key": "media_pdf/1744351095_ISA_Business_Mauritius_host_SolarX_Global_Accelerator.pdf"
+          },
+          {
+            "originalIndex": 35,
+            "title": "Strengthening Solar Partnerships: Cuba Becomes the Third Country to Join ISA’s Country Partnership Framework",
+            "date": "Mar 24, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1742813236_1742812108Strengthening_Solar_Partnerships_Cuba_Becomes_the_Third_Country_to_Join_ISAs_Country_Partnership_Framework.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1742813236_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1742813236_1742812108Strengthening_Solar_Partnerships_Cuba_Becomes_the_Third_Country_to_Join_ISAs_Country_Partnership_Framework.pdf",
+            "s3Key": "media_pdf/1742813236_1742812108Strengthening_Solar_Partnerships_Cuba_Becomes_the_Third_Country_to_Join_ISAs_Country_Partnership_Framework.pdf"
+          },
+          {
+            "originalIndex": 36,
+            "title": "The International Solar Alliance (ISA) Joins Forces with Africa50, Nigeria Sovereign Investment Authority (NSIA), and Sustainable Energy for All (SEforAll) to launch the Distributed Renewable Energy (DRE) Africa Platform",
+            "date": "Mar 21, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1742548408_The_International_Solar_Alliance_ISA_Joins_Forces_with_Africa50_Nigeria_Sovereign_Investment_Authority_NSIA_and_Sustainable_Energy_for_All_SEforAll_170325.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1742548408_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1742548408_The_International_Solar_Alliance_ISA_Joins_Forces_with_Africa50_Nigeria_Sovereign_Investment_Authority_NSIA_and_Sustainable_Energy_for_All_SEforAll_170325.pdf",
+            "s3Key": "media_pdf/1742548408_The_International_Solar_Alliance_ISA_Joins_Forces_with_Africa50_Nigeria_Sovereign_Investment_Authority_NSIA_and_Sustainable_Energy_for_All_SEforAll_170325.pdf"
+          },
+          {
+            "originalIndex": 37,
+            "title": "Ashish Khanna assumes Office as the New Director General of the International Solar Alliance",
+            "date": "Mar 17, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1742383193_New_Director_General_of_ISA_takes_Office..pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1742383193_Press_release_banner.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1742383193_New_Director_General_of_ISA_takes_Office..pdf",
+            "s3Key": "media_pdf/1742383193_New_Director_General_of_ISA_takes_Office..pdf"
+          },
+          {
+            "originalIndex": 38,
+            "title": "The International Solar Alliance establishes its First Capacity-Building Initiative in the Pacific",
+            "date": "Feb 21, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1740985570_ISA_establishes_its_First_Capacity-Building_Initiative_in_the_Pacific.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1740985570_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1740985570_ISA_establishes_its_First_Capacity-Building_Initiative_in_the_Pacific.pdf",
+            "s3Key": "media_pdf/1740985570_ISA_establishes_its_First_Capacity-Building_Initiative_in_the_Pacific.pdf"
+          },
+          {
+            "originalIndex": 39,
+            "title": "International Solar Alliance (ISA) and Tanzania Strengthen Cooperation on Solar Energy Deployment",
+            "date": "Feb 20, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1740043553_Press_Release_ISA__Tanzania_Meeting_19022025_1619_for_approval.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1740043553_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1740043553_Press_Release_ISA__Tanzania_Meeting_19022025_1619_for_approval.pdf",
+            "s3Key": "media_pdf/1740043553_Press_Release_ISA__Tanzania_Meeting_19022025_1619_for_approval.pdf"
+          },
+          {
+            "originalIndex": 40,
+            "title": "The International Solar Alliance Hosts a Plenary Addressing the Transforming of Agriculture Sector Across the Global South through the Coupling of Farm Mechanisation with Solar Energy",
+            "date": "Feb 19, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1739966230_ISA_Participates_at_IEW2025_1.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1739966230_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1739966230_ISA_Participates_at_IEW2025_1.pdf",
+            "s3Key": "media_pdf/1739966230_ISA_Participates_at_IEW2025_1.pdf"
+          },
+          {
+            "originalIndex": 41,
+            "title": "International Solar Alliance and the Ministry of Energy and Mineral Development, Uganda, Collaborate on Guidelines for Solar Mini-grid to Boost Investments in the Country",
+            "date": "Feb 18, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1740378025_International_Solar_Alliance_and_the_Ministry_of_Energy_and_Mineral_Development_Uganda_Collaborate_on_Guidelines_for_Solar_Mini-grid_to_Boost_Investments_in_Country.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1740378025_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1740378025_International_Solar_Alliance_and_the_Ministry_of_Energy_and_Mineral_Development_Uganda_Collaborate_on_Guidelines_for_Solar_Mini-grid_to_Boost_Investments_in_Country.pdf",
+            "s3Key": "media_pdf/1740378025_International_Solar_Alliance_and_the_Ministry_of_Energy_and_Mineral_Development_Uganda_Collaborate_on_Guidelines_for_Solar_Mini-grid_to_Boost_Investments_in_Country.pdf"
+          },
+          {
+            "originalIndex": 42,
+            "title": "International Solar Alliance (ISA) will participate in India Energy Week (IEW) 2025 – Government of India’s Flagship Event Focussing on Energy",
+            "date": "Feb 12, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1739340210_ISA_at_India_Energy_Week_2025_Press_Release_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1739340210_1734426196_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1739340210_ISA_at_India_Energy_Week_2025_Press_Release_Final.pdf",
+            "s3Key": "media_pdf/1739340210_ISA_at_India_Energy_Week_2025_Press_Release_Final.pdf"
+          },
+          {
+            "originalIndex": 43,
+            "title": "Nepalese Media Delegation visits the Headquarters of the International Solar Alliance in Gurugram, Haryana",
+            "date": "Feb 06, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1739268763_Nepalese_Media_Delegation_visits_the_Headquarters_of_ISA_06022025.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1739268860_1734426196_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1739268763_Nepalese_Media_Delegation_visits_the_Headquarters_of_ISA_06022025.pdf",
+            "s3Key": "media_pdf/1739268763_Nepalese_Media_Delegation_visits_the_Headquarters_of_ISA_06022025.pdf"
+          },
+          {
+            "originalIndex": 44,
+            "title": "International Solar Alliance Inaugurates Solar Academy in Senegal to Drive Solar Energy Capacity Building in West Africa",
+            "date": "Dec 17, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1734426114_ISA_inaugurates_Solar_Academy_in_Senegal_to_Drive_Solar_Energy_Capacity_Building_in_West_Africa.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1734426196_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1734426114_ISA_inaugurates_Solar_Academy_in_Senegal_to_Drive_Solar_Energy_Capacity_Building_in_West_Africa.pdf",
+            "s3Key": "media_pdf/1734426114_ISA_inaugurates_Solar_Academy_in_Senegal_to_Drive_Solar_Energy_Capacity_Building_in_West_Africa.pdf"
+          },
+          {
+            "originalIndex": 45,
+            "title": "The International Solar Alliance and the United States Agency for International Development Sign a Memorandum of Understanding to Advance Grid Interconnections",
+            "date": "Dec 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1733472847_ISA-USAID_MoU_Signing.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1733473969_1732777041_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1733472847_ISA-USAID_MoU_Signing.pdf",
+            "s3Key": "media_pdf/1733472847_ISA-USAID_MoU_Signing.pdf"
+          },
+          {
+            "originalIndex": 46,
+            "title": "From Collaboration to Action: the ISA Solar Hub at COP29 Advocates for Solar as a Key Means for Global Energy Transition",
+            "date": "Nov 22, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1732777041_From_Collaboration_to_Action_the_ISA_Solar_Hub_at_COP29_Advocates_for_Solar_as_a_Key_Means_for_Global_Energy_Transition.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1732777041_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1732777041_From_Collaboration_to_Action_the_ISA_Solar_Hub_at_COP29_Advocates_for_Solar_as_a_Key_Means_for_Global_Energy_Transition.pdf",
+            "s3Key": "media_pdf/1732777041_From_Collaboration_to_Action_the_ISA_Solar_Hub_at_COP29_Advocates_for_Solar_as_a_Key_Means_for_Global_Energy_Transition.pdf"
+          },
+          {
+            "originalIndex": 47,
+            "title": "ISA Pavilion, The Solar Hub, Leads Global Conversations and Unites Efforts for Global Solar Deployment in Week One of COP29",
+            "date": "Nov 16, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1732777165_ISA_Pavilion_The_Solar_Hub_Leads_Global_Conversations_and_Unites_Efforts_for_Global_Solar_Deployment_in_Week_One_of_COP29.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1732777165_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1732777165_ISA_Pavilion_The_Solar_Hub_Leads_Global_Conversations_and_Unites_Efforts_for_Global_Solar_Deployment_in_Week_One_of_COP29.pdf",
+            "s3Key": "media_pdf/1732777165_ISA_Pavilion_The_Solar_Hub_Leads_Global_Conversations_and_Unites_Efforts_for_Global_Solar_Deployment_in_Week_One_of_COP29.pdf"
+          },
+          {
+            "originalIndex": 48,
+            "title": "International Solar Alliance (ISA) Launches ‘Green Hydrogen Enabling Environment Handbook 2024’ at COP29",
+            "date": "Nov 14, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1732777111_International_Solar_Alliance_ISA_Launches_Green_Hydrogen_Enabling_Environment_Handbook_2024_at_COP29.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1732777111_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1732777111_International_Solar_Alliance_ISA_Launches_Green_Hydrogen_Enabling_Environment_Handbook_2024_at_COP29.pdf",
+            "s3Key": "media_pdf/1732777111_International_Solar_Alliance_ISA_Launches_Green_Hydrogen_Enabling_Environment_Handbook_2024_at_COP29.pdf"
+          },
+          {
+            "originalIndex": 49,
+            "title": "The International Solar Alliance Paves the ‘Solar’ Future Course of Action at COP29 in Baku",
+            "date": "Nov 11, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1732777196_The_International_Solar_Alliance_Paves_the_Solar_Future_Course_of_Action_at_COP29_in_Baku.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1732777196_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1732777196_The_International_Solar_Alliance_Paves_the_Solar_Future_Course_of_Action_at_COP29_in_Baku.pdf",
+            "s3Key": "media_pdf/1732777196_The_International_Solar_Alliance_Paves_the_Solar_Future_Course_of_Action_at_COP29_in_Baku.pdf"
+          },
+          {
+            "originalIndex": 50,
+            "title": "ISA hosts the third edition of the High-level Conference on New Technologies for Clean Energy Transition",
+            "date": "Nov 05, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1730890531_Press_release_-High-Level_Technical_Conference.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1730890531_Press_release_-High-Level_Technical_Conference.pdf",
+            "s3Key": "media_pdf/1730890531_Press_release_-High-Level_Technical_Conference.pdf"
+          },
+          {
+            "originalIndex": 51,
+            "title": "The International Solar Alliance Hosts the Seventh Session of its Annual Assembly with representatives from 103 Member & 17 Signatory Countries",
+            "date": "Nov 04, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1730726093_Press_Release_-_Assembly_Inaugural.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1730726093_Press_Release_-_Assembly_Inaugural.pdf",
+            "s3Key": "media_pdf/1730726093_Press_Release_-_Assembly_Inaugural.pdf"
+          },
+          {
+            "originalIndex": 52,
+            "title": "The International Solar Alliance (ISA) Announces New Office Bearers for 2024 – 2026",
+            "date": "Nov 04, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1730726313_Press_Release_-_Election_of_President_and_Co-President.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1730726313_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1730726313_Press_Release_-_Election_of_President_and_Co-President.pdf",
+            "s3Key": "media_pdf/1730726313_Press_Release_-_Election_of_President_and_Co-President.pdf"
+          },
+          {
+            "originalIndex": 53,
+            "title": "The International Solar Alliance Announces the Selection of its third Director General",
+            "date": "Nov 04, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1730726421_Press_Release-_Election_of_Director_General.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1730726421_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1730726421_Press_Release-_Election_of_Director_General.pdf",
+            "s3Key": "media_pdf/1730726421_Press_Release-_Election_of_Director_General.pdf"
+          },
+          {
+            "originalIndex": 54,
+            "title": "Building on the success of the Cairo Edition, ISA & Green Hydrogen Organisation bring their Green Hydrogen Policy Accelerator Training Course to New Delhi",
+            "date": "Oct 21, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1729579765_GH2_PressNote_NewDelhi_22102024.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1729579765_1725866373ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1729579765_GH2_PressNote_NewDelhi_22102024.pdf",
+            "s3Key": "media_pdf/1729579765_GH2_PressNote_NewDelhi_22102024.pdf"
+          },
+          {
+            "originalIndex": 55,
+            "title": "Leaders from 120 Member Countries to attend the Seventh Session of the International Solar Alliance Assembly in New Delhi",
+            "date": "Oct 16, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1729140446_Press_Release-_ISA_Curtain_Raiser.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1729140507_1725866373ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1729140446_Press_Release-_ISA_Curtain_Raiser.pdf",
+            "s3Key": "media_pdf/1729140446_Press_Release-_ISA_Curtain_Raiser.pdf"
+          },
+          {
+            "originalIndex": 56,
+            "title": "Hon’ble Prime Minister Shri Narendra Modi Meets SolarX Startup Challenge: India 2024 Winners at the 4th Global RE-INVEST Renewable Energy Investors Meet & Expo",
+            "date": "Sep 26, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1727349922_Press_Release_SolarX_Startup_Winners_2024__India_at_RE_Invest.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1727349922_ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1727349922_Press_Release_SolarX_Startup_Winners_2024__India_at_RE_Invest.pdf",
+            "s3Key": "media_pdf/1727349922_Press_Release_SolarX_Startup_Winners_2024__India_at_RE_Invest.pdf"
+          },
+          {
+            "originalIndex": 57,
+            "title": "Hon’ble Prime Minister Shri Narendra Modi Meets SolarX Startup Challenge: India 2024 Winners at the 4th Global RE-INVEST Renewable Energy Investors Meet & Expo",
+            "date": "Sep 18, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1731479402_Press_Release_REInvest_Inaugural.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1731479402_1730890563_1730726093_ISAlogo.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1731479402_Press_Release_REInvest_Inaugural.pdf",
+            "s3Key": "media_pdf/1731479402_Press_Release_REInvest_Inaugural.pdf"
+          },
+          {
+            "originalIndex": 58,
+            "title": "International Solar Alliance (ISA) Announces Winners of SolarX Startup Challenge 2024: APAC and India Edition",
+            "date": "Sep 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1725873793Press_Release_SolarX_Startup_Challenge_2024_APAC_(1).pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1725866373ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1725873793Press_Release_SolarX_Startup_Challenge_2024_APAC_(1).pdf",
+            "s3Key": "media_pdf/1725873793Press_Release_SolarX_Startup_Challenge_2024_APAC_(1).pdf"
+          },
+          {
+            "originalIndex": 59,
+            "title": "The International Solar Festival 2024 finale: 20 SolarX Startups Challenge winners from APAC, plus 10 from India announced",
+            "date": "Sep 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1726033414The_International_Solar_Festival_2024_finale_20_SolarX_Startups_Challenge_winners_from_APAC,_plus_10_from_India_announced.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726730467ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1726033414The_International_Solar_Festival_2024_finale_20_SolarX_Startups_Challenge_winners_from_APAC,_plus_10_from_India_announced.pdf",
+            "s3Key": "media_pdf/1726033414The_International_Solar_Festival_2024_finale_20_SolarX_Startups_Challenge_winners_from_APAC,_plus_10_from_India_announced.pdf"
+          },
+          {
+            "originalIndex": 60,
+            "title": "A glimpse into a solar future at the ISA International Solar Festival’s Green Zone",
+            "date": "Sep 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1726033550A_glimpse_into_a_solar_future_at_the_ISA_International_Solar_Festival%E2%80%99s_Green_Zone.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726730687ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1726033550A_glimpse_into_a_solar_future_at_the_ISA_International_Solar_Festival’s_Green_Zone.pdf",
+            "s3Key": "media_pdf/1726033550A_glimpse_into_a_solar_future_at_the_ISA_International_Solar_Festival’s_Green_Zone.pdf"
+          },
+          {
+            "originalIndex": 61,
+            "title": "ISA and MIGA Establish Multi-Donor Trust Fund to Support Solar Projects",
+            "date": "Sep 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1726033766ISA_and_MIGA_Establish_Multi-Donor_Trust_Fund_to_Support_Solar_Projects.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726730262ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1726033766ISA_and_MIGA_Establish_Multi-Donor_Trust_Fund_to_Support_Solar_Projects.pdf",
+            "s3Key": "media_pdf/1726033766ISA_and_MIGA_Establish_Multi-Donor_Trust_Fund_to_Support_Solar_Projects.pdf"
+          },
+          {
+            "originalIndex": 62,
+            "title": "ISA and Africa50 in discussions regarding the Africa Solar Facility",
+            "date": "Sep 05, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1725873669ISA-Africa50_Press_Release.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1725866222ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1725873669ISA-Africa50_Press_Release.pdf",
+            "s3Key": "media_pdf/1725873669ISA-Africa50_Press_Release.pdf"
+          },
+          {
+            "originalIndex": 63,
+            "title": "PM Modi addresses International Solar Festival 2024, calls to democratize solar manufacturing and technology for developing nations",
+            "date": "Sep 05, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1726033164PM_Modi_addresses_International_Solar_Festival_2024,_calls_to_democratize_solar_manufacturing_and_technology_for_developing_nations.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726730565ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1726033164PM_Modi_addresses_International_Solar_Festival_2024,_calls_to_democratize_solar_manufacturing_and_technology_for_developing_nations.pdf",
+            "s3Key": "media_pdf/1726033164PM_Modi_addresses_International_Solar_Festival_2024,_calls_to_democratize_solar_manufacturing_and_technology_for_developing_nations.pdf"
+          },
+          {
+            "originalIndex": 64,
+            "title": "International Solar Alliance enters exclusive discussions with Africa50 to manage $200M Africa Solar Facility",
+            "date": "Sep 05, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1728291836_International_Solar_Alliance_enters_exclusive_discussions_with_Africa50_to_manage_200M_Africa_Solar_Facility.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726033605ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1728291836_International_Solar_Alliance_enters_exclusive_discussions_with_Africa50_to_manage_200M_Africa_Solar_Facility.pdf",
+            "s3Key": "media_pdf/1728291836_International_Solar_Alliance_enters_exclusive_discussions_with_Africa50_to_manage_200M_Africa_Solar_Facility.pdf"
+          },
+          {
+            "originalIndex": 65,
+            "title": "International Solar Alliance Catalyses Solar Expansion in Africa with New Projects and Enhanced Collaboration",
+            "date": "Aug 28, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1725020319PressRelease_SixthAfricaRCM_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1725018001ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1725020319PressRelease_SixthAfricaRCM_Final.pdf",
+            "s3Key": "media_pdf/1725020319PressRelease_SixthAfricaRCM_Final.pdf"
+          },
+          {
+            "originalIndex": 66,
+            "title": "ISA’s Solar X Startup Challenge Hosts Its First Investor Pitch for Winners From Africa Edition",
+            "date": "Aug 28, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1726731187Press_note-_SolarX_Investor_Pitch_Abidjan_(1).pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1725018130ISA.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1726731187Press_note-_SolarX_Investor_Pitch_Abidjan_(1).pdf",
+            "s3Key": "media_pdf/1726731187Press_note-_SolarX_Investor_Pitch_Abidjan_(1).pdf"
+          },
+          {
+            "originalIndex": 67,
+            "title": "Cairo Hosts the First Green Hydrogen Innovation Centre (GHIC) Training Workshop for ISA Members",
+            "date": "Aug 23, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17244661958a6c659547e0a6d88c539d4f25622e.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1724836078PR.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17244661958a6c659547e0a6d88c539d4f25622e.pdf",
+            "s3Key": "media_pdf/17244661958a6c659547e0a6d88c539d4f25622e.pdf"
+          },
+          {
+            "originalIndex": 68,
+            "title": "Tenth Meeting of the Standing Committee of the International Solar Alliance Assembly held in New Delhi to continue easing solar deployment across its 119 Member & Signatory Countries.",
+            "date": "Jul 20, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1721472402Press_note_10th_Standing_Committee_Final.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/172147240217206022851720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1721472402Press_note_10th_Standing_Committee_Final.pdf",
+            "s3Key": "media_pdf/1721472402Press_note_10th_Standing_Committee_Final.pdf"
+          },
+          {
+            "originalIndex": 69,
+            "title": "International Solar Alliance Backs Innovative Solar Projects in Madagascar at Key Workshop",
+            "date": "Jun 07, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1720602285e42c160f0b4c2309ff081ad660f723.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206022851720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1720602285e42c160f0b4c2309ff081ad660f723.pdf",
+            "s3Key": "media_pdf/1720602285e42c160f0b4c2309ff081ad660f723.pdf"
+          },
+          {
+            "originalIndex": 70,
+            "title": "Mauritius Advances in Solar Energy with International Solar Alliance (ISA) Cares Initiative at Jawaharlal Nehru Hospital",
+            "date": "Jun 05, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718954747cc90564392261d6254c0b5c406e743.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189547471714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718954747cc90564392261d6254c0b5c406e743.pdf",
+            "s3Key": "media_pdf/1718954747cc90564392261d6254c0b5c406e743.pdf"
+          },
+          {
+            "originalIndex": 71,
+            "title": "International Solar Alliance Helps Boost Bhutanese Solar Initiatives",
+            "date": "May 06, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718954644e36e415603037db85f74ef788d58e9.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189546441714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718954644e36e415603037db85f74ef788d58e9.pdf",
+            "s3Key": "media_pdf/1718954644e36e415603037db85f74ef788d58e9.pdf"
+          },
+          {
+            "originalIndex": 72,
+            "title": "ISA’s mission to Uganda: Set to pave the way for increased solar deployment",
+            "date": "Apr 24, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1720602881ec60fc04ceeea765208874f582af61.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1720610672171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1720602881ec60fc04ceeea765208874f582af61.pdf",
+            "s3Key": "media_pdf/1720602881ec60fc04ceeea765208874f582af61.pdf"
+          },
+          {
+            "originalIndex": 73,
+            "title": "Solar potential 75 thousand GW by 2050 with long duration storage",
+            "date": "Dec 06, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17150640082050.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206049631720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17150640082050.pdf",
+            "s3Key": "media_pdf/17150640082050.pdf"
+          },
+          {
+            "originalIndex": 74,
+            "title": "Romania Joins the Global Solar Movement as the 118th Member Country of the International Solar Alliance",
+            "date": "Dec 06, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1720603057ec60fc04ceeea765208874f582af61.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206030571720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1720603057ec60fc04ceeea765208874f582af61.pdf",
+            "s3Key": "media_pdf/1720603057ec60fc04ceeea765208874f582af61.pdf"
+          },
+          {
+            "originalIndex": 75,
+            "title": "International Solar Alliance’s Global Solar Facility set to receive a capital contribution of $35 million dollars",
+            "date": "Oct 31, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17189542464bf515e9513baa6989c4.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189542461714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17189542464bf515e9513baa6989c4.pdf",
+            "s3Key": "media_pdf/17189542464bf515e9513baa6989c4.pdf"
+          },
+          {
+            "originalIndex": 76,
+            "title": "India hosts the 6th Session of the International Solar Alliance Assembly at New Delhi",
+            "date": "Oct 31, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17206050774.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206051861720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17206050774.pdf",
+            "s3Key": "media_pdf/17206050774.pdf"
+          },
+          {
+            "originalIndex": 77,
+            "title": "Solar in Nepal’s energy mix will bring the twin benefit of stimulating the economy and accelerating clean energy transitions - International Solar Alliance (ISA)",
+            "date": "Aug 15, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718954201c2695d3eae2dc90e68dcaf16d.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206053781720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718954201c2695d3eae2dc90e68dcaf16d.pdf",
+            "s3Key": "media_pdf/1718954201c2695d3eae2dc90e68dcaf16d.pdf"
+          },
+          {
+            "originalIndex": 78,
+            "title": "ISA’s 5th Regional Meeting of the Asia Pacific Region 2023 charts course towards solar-powered future ahead of COP28",
+            "date": "Aug 03, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715065093cop28.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714042090media_card6.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715065093cop28.pdf",
+            "s3Key": "media_pdf/1715065093cop28.pdf"
+          },
+          {
+            "originalIndex": 79,
+            "title": "Achieving universal energy access by 2030, as outlined in Sustainable Development Goal 7, requires increased efforts on solar mini-grids",
+            "date": "Aug 03, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17150632782030.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714476613event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17150632782030.pdf",
+            "s3Key": "media_pdf/17150632782030.pdf"
+          },
+          {
+            "originalIndex": 80,
+            "title": "International Solar Alliance (ISA) inks a memorandum of cooperation with Airports Council International (ACI) to increase the deployment of solar across airports globally",
+            "date": "Aug 03, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17189541318e13a84e8db16241f47f7e8d14dbf6%20(2).pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206054421720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17189541318e13a84e8db16241f47f7e8d14dbf6 (2).pdf",
+            "s3Key": "media_pdf/17189541318e13a84e8db16241f47f7e8d14dbf6 (2).pdf"
+          },
+          {
+            "originalIndex": 81,
+            "title": "ISA announces winners of the SolarX Startup Challenge: Boosting Solar Innovation in Africa",
+            "date": "Aug 03, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1720682011f202ebaa75e005b5809acf1b92a30e.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206056881720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1720682011f202ebaa75e005b5809acf1b92a30e.pdf",
+            "s3Key": "media_pdf/1720682011f202ebaa75e005b5809acf1b92a30e.pdf"
+          },
+          {
+            "originalIndex": 82,
+            "title": "The Abu Dhabi meeting of ISA’s Asia-Pacific region charts course towards solar-powered future ahead of COP28",
+            "date": "Aug 03, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068196504a8f7087ce763f3fb33f9a061f1df.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206057721720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068196504a8f7087ce763f3fb33f9a061f1df.pdf",
+            "s3Key": "media_pdf/172068196504a8f7087ce763f3fb33f9a061f1df.pdf"
+          },
+          {
+            "originalIndex": 83,
+            "title": "ISA Director General marks his first visit to the Togolese Republic",
+            "date": "Jul 15, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062680marks.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714477713event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062680marks.pdf",
+            "s3Key": "media_pdf/1715062680marks.pdf"
+          },
+          {
+            "originalIndex": 84,
+            "title": "Africa50 signs MoU with International Solar Alliance to source and finance solar projects across Africa",
+            "date": "Jul 06, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062615mou.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714477867event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062615mou.pdf",
+            "s3Key": "media_pdf/1715062615mou.pdf"
+          },
+          {
+            "originalIndex": 86,
+            "title": "“Europe region’s active participation in the International Solar Alliance accelerates climate action” - International Solar Alliance",
+            "date": "Jun 24, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062289action.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714478324event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062289action.pdf",
+            "s3Key": "media_pdf/1715062289action.pdf"
+          },
+          {
+            "originalIndex": 88,
+            "title": "Press Release: Eighth Meeting of Standing Committee of International Solar Alliance held in Delhi",
+            "date": "Jun 07, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17206062559.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206062551720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17206062559.pdf",
+            "s3Key": "media_pdf/17206062559.pdf"
+          },
+          {
+            "originalIndex": 89,
+            "title": "ISA and HIEx, with support of the EU, as knowledge partner, held a high-level roundtable discussion on the sidelines of the World Health Assembly 2023",
+            "date": "Jun 01, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060634810.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206063481720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060634810.pdf",
+            "s3Key": "media_pdf/172060634810.pdf"
+          },
+          {
+            "originalIndex": 90,
+            "title": "International Solar Alliance and Invest India hosted a Capacity Building and Knowledge Sharing Workshop in Mauritius for the outreach of the SolarX Grand Challenge programme.",
+            "date": "May 18, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060647711.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206064771720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060647711.pdf",
+            "s3Key": "media_pdf/172060647711.pdf"
+          },
+          {
+            "originalIndex": 91,
+            "title": "International Solar Alliance (ISA) & United Nations Development Programme (UNDP) launch pilot projects in 10 African ISA Member Countries",
+            "date": "Mar 28, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060657112.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206065711720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060657112.pdf",
+            "s3Key": "media_pdf/172060657112.pdf"
+          },
+          {
+            "originalIndex": 92,
+            "title": "Press Release - Special Lecture by Dr Rajiv Shah, President, The Rockefeller Foundation",
+            "date": "Mar 20, 2023",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061876foundation.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714481602event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061876foundation.pdf",
+            "s3Key": "media_pdf/1715061876foundation.pdf"
+          },
+          {
+            "originalIndex": 93,
+            "title": "International Solar Alliance launches Solar X Grand Challenge in Africa",
+            "date": "Nov 11, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061679solarx.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482254event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061679solarx.pdf",
+            "s3Key": "media_pdf/1715061679solarx.pdf"
+          },
+          {
+            "originalIndex": 94,
+            "title": "International Solar Alliance (ISA) and Global Energy Alliance for People and Planet (GEAPP) sign agreement to boost solar deployment",
+            "date": "Nov 11, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060686314.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206068631720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060686314.pdf",
+            "s3Key": "media_pdf/172060686314.pdf"
+          },
+          {
+            "originalIndex": 95,
+            "title": "New Roadmap Provides Path to Rapidly and Equitably Scaling Global Solar Investment and Deployment",
+            "date": "Nov 11, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060696815.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206069681720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060696815.pdf",
+            "s3Key": "media_pdf/172060696815.pdf"
+          },
+          {
+            "originalIndex": 96,
+            "title": "India hosts the 5th Assembly of the International Solar Alliance at New Delhi",
+            "date": "Oct 19, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060703616.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482846event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060703616.pdf",
+            "s3Key": "media_pdf/172060703616.pdf"
+          },
+          {
+            "originalIndex": 97,
+            "title": "Press Note Curtain Raiser",
+            "date": "Oct 06, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060712217.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206071221720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060712217.pdf",
+            "s3Key": "media_pdf/172060712217.pdf"
+          },
+          {
+            "originalIndex": 98,
+            "title": "ISA, Cuba and NTPC issues a Request for Qualification to set up 1150 MW solar project in Cuba",
+            "date": "Aug 12, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061219cuba.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714483154event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061219cuba.pdf",
+            "s3Key": "media_pdf/1715061219cuba.pdf"
+          },
+          {
+            "originalIndex": 99,
+            "title": "International Solar Alliance closes its historic meeting with a promise to increase solarisation in the Latin American & Caribbean region",
+            "date": "Aug 12, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060724318.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714483384event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060724318.pdf",
+            "s3Key": "media_pdf/172060724318.pdf"
+          },
+          {
+            "originalIndex": 100,
+            "title": "Guyana set to Host ISA’s Fourth Regional Committee Meeting for Latin America and the Caribbean Region",
+            "date": "Aug 12, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060734419.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714483558event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060734419.pdf",
+            "s3Key": "media_pdf/172060734419.pdf"
+          },
+          {
+            "originalIndex": 101,
+            "title": "ISA, EU and France present two new projects on Capacity Building giving a push to solar energy adoption by Knowledge sharing, building business, academic and financing networks & structuring STAR C in ISA Member Countries",
+            "date": "Jul 01, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060743720.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206074371720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060743720.pdf",
+            "s3Key": "media_pdf/172060743720.pdf"
+          },
+          {
+            "originalIndex": 102,
+            "title": "International Solar Alliance (ISA) and Government of Federal Democratic Republic of Ethiopia come together to sign multiple agreements to Accelerate Solarisation in Ethiopia through Solar Parks and Solar Pumps projects.",
+            "date": "May 26, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060751521.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206075151720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060751521.pdf",
+            "s3Key": "media_pdf/172060751521.pdf"
+          },
+          {
+            "originalIndex": 103,
+            "title": "INTERNATIONAL SOLAR ALLIANCE (ISA) and BUNDESVERBAND SOLARWIRTSCHAFT E.V (BSW SOLAR) join forces at INTERSOLAR EUROPE to define agenda for future association.",
+            "date": "May 16, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060759222.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206075921720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060759222.pdf",
+            "s3Key": "media_pdf/172060759222.pdf"
+          },
+          {
+            "originalIndex": 104,
+            "title": "President of European Commission H.E. Ursula von der Leyen and President of ISA Assembly, Minister of Power & New and Renewable Energy, Government of India, H.E. Raj Kumar Singh address Industry on Solar Energy Development at the ISA Headquarters",
+            "date": "Apr 24, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060766723.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206076671720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060766723.pdf",
+            "s3Key": "media_pdf/172060766723.pdf"
+          },
+          {
+            "originalIndex": 105,
+            "title": "ISA-NTPC meeting with Ambassadors and High Commissioners of member countries interested in ISA Program-06 aiming towards implementation of solar parks and projects",
+            "date": "Mar 07, 2022",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060779624.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206077961720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060779624.pdf",
+            "s3Key": "media_pdf/172060779624.pdf"
+          },
+          {
+            "originalIndex": 106,
+            "title": "International Solar Alliance establishes an Advisory Committee and partnership with Nordic institutional investors to mobilize $1 trillion for investment in solar",
+            "date": "Nov 11, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060404isa.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206078831720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060404isa.pdf",
+            "s3Key": "media_pdf/1715060404isa.pdf"
+          },
+          {
+            "originalIndex": 107,
+            "title": "The United States of America becomes the 101st membThe United States of America becomes the 101st member country of the International Solar Allianceer country of the International Solar Alliance",
+            "date": "Nov 11, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715001048usamerica.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714541379event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715001048usamerica.pdf",
+            "s3Key": "media_pdf/1715001048usamerica.pdf"
+          },
+          {
+            "originalIndex": 108,
+            "title": "United States of America expresses support for the 'Green Grids Initiative – One Sun One World One Grid",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060808326.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714541853event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060808326.pdf",
+            "s3Key": "media_pdf/172060808326.pdf"
+          },
+          {
+            "originalIndex": 109,
+            "title": "International Solar Alliance partners with newly launched Global Energy Alliance for People and Planet (GEAPP) to accelerate energy transition",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060815927.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714542123event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060815927.pdf",
+            "s3Key": "media_pdf/172060815927.pdf"
+          },
+          {
+            "originalIndex": 110,
+            "title": "World’s First Partnership for Interconnected Solar Grids, GGI-OSOWOG, Launched at Cop26 World Leaders Summit",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060834629.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714542497event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060834629.pdf",
+            "s3Key": "media_pdf/172060834629.pdf"
+          },
+          {
+            "originalIndex": 111,
+            "title": "World’s First Partnership for Interconnected Solar Grids, GGI-OSOWOG, Launched at Cop26 World Leaders Summit (French)",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060841030.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714542613event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060841030.pdf",
+            "s3Key": "media_pdf/172060841030.pdf"
+          },
+          {
+            "originalIndex": 112,
+            "title": "International Solar Alliance joins forces with CONCITO, IFU and WCF in quest to mobilize $1 Trillion for investment in solar by 2030.",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060847931.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714542722event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060847931.pdf",
+            "s3Key": "media_pdf/172060847931.pdf"
+          },
+          {
+            "originalIndex": 113,
+            "title": "The International Solar Alliance and Elsevier launch Solar Compass, with Ambassador Stephane Crouzat at COP26",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060799125.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206079911720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060799125.pdf",
+            "s3Key": "media_pdf/172060799125.pdf"
+          },
+          {
+            "originalIndex": 114,
+            "title": "International Solar Alliance partners with newly launched Global Energy Alliance for People and Planet (GEAPP) to accelerate energy transition (French)",
+            "date": "Nov 08, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060822728.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206082271720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060822728.pdf",
+            "s3Key": "media_pdf/172060822728.pdf"
+          },
+          {
+            "originalIndex": 115,
+            "title": "Power and NRE Minister calls upon the world to work together to make energy access available to all using solar and renewable energy",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060892338.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189525491714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060892338.pdf",
+            "s3Key": "media_pdf/172060892338.pdf"
+          },
+          {
+            "originalIndex": 116,
+            "title": "11 ISA Member Countries to receive technical and financial support of up to USD 50,000 for demonstration solar projects initiative",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060886837.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189526241714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060886837.pdf",
+            "s3Key": "media_pdf/172060886837.pdf"
+          },
+          {
+            "originalIndex": 117,
+            "title": "Bloomberg Philanthropies announces new partnership with International Solar Alliance to mobilize $1 trillion in solar financing",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171895295188abbf95dbdc1d5894929d04077225.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189529511714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171895295188abbf95dbdc1d5894929d04077225.pdf",
+            "s3Key": "media_pdf/171895295188abbf95dbdc1d5894929d04077225.pdf"
+          },
+          {
+            "originalIndex": 118,
+            "title": "Solar energy is the most powerful tool that the world has in its toolkit to combat climate crisis: John Kerry, U.S. Special Presidential Envoy for Climate",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060877736.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189529991714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060877736.pdf",
+            "s3Key": "media_pdf/172060877736.pdf"
+          },
+          {
+            "originalIndex": 119,
+            "title": "European Commission Executive-Vice President for the European Green Deal Mr. Frans Timmermans participates in the opening session of the ISA Assembly",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060872135.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189535001714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060872135.pdf",
+            "s3Key": "media_pdf/172060872135.pdf"
+          },
+          {
+            "originalIndex": 120,
+            "title": "Fourth Assembly of the International Solar Alliance closes with a promise to achieve $1 trillion global in solar investments by 2030",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060866134.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189539961714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060866134.pdf",
+            "s3Key": "media_pdf/172060866134.pdf"
+          },
+          {
+            "originalIndex": 121,
+            "title": "World leaders to address 4th International Solar Alliance General Assembly on October 18th – 21st",
+            "date": "Oct 23, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060860433.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189540751714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060860433.pdf",
+            "s3Key": "media_pdf/172060860433.pdf"
+          },
+          {
+            "originalIndex": 122,
+            "title": "World leaders to address 4th International Solar Alliance General Assembly on October 18th – 21st 2021",
+            "date": "Oct 17, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060899239.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206089921720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060899239.pdf",
+            "s3Key": "media_pdf/172060899239.pdf"
+          },
+          {
+            "originalIndex": 123,
+            "title": "Press Release - Dr. Ajay Mathur takes over as the New Director-general of the International Solar Alliance (ISA)",
+            "date": "May 21, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060916741.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189523231714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060916741.pdf",
+            "s3Key": "media_pdf/172060916741.pdf"
+          },
+          {
+            "originalIndex": 124,
+            "title": "Press Release - OSOWOG Strategic Inception Workshop",
+            "date": "May 16, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060907740.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189523841714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060907740.pdf",
+            "s3Key": "media_pdf/172060907740.pdf"
+          },
+          {
+            "originalIndex": 125,
+            "title": "Press Release- First special session of the ISA Assembly",
+            "date": "Feb 16, 2021",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060924042.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189522541714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060924042.pdf",
+            "s3Key": "media_pdf/172060924042.pdf"
+          },
+          {
+            "originalIndex": 126,
+            "title": "Press Release- ISA Solar Awards 2020",
+            "date": "Dec 18, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060930543.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189519701714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060930543.pdf",
+            "s3Key": "media_pdf/172060930543.pdf"
+          },
+          {
+            "originalIndex": 127,
+            "title": "Press Release- 3rd Assembly of the ISA",
+            "date": "Oct 20, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060936744.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189518721714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060936744.pdf",
+            "s3Key": "media_pdf/172060936744.pdf"
+          },
+          {
+            "originalIndex": 128,
+            "title": "ISA-Barefoot-SUN Foundation Partnership Launch: Press Conference",
+            "date": "Oct 09, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060943645.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189516071714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060943645.pdf",
+            "s3Key": "media_pdf/172060943645.pdf"
+          },
+          {
+            "originalIndex": 129,
+            "title": "Press Release - Inaugural of First World Solar Technology Summit (WSTS)",
+            "date": "Sep 09, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060956047.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189514091714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060956047.pdf",
+            "s3Key": "media_pdf/172060956047.pdf"
+          },
+          {
+            "originalIndex": 130,
+            "title": "Press Release - Valedictory of First World Solar Technology Summit (WSTS)",
+            "date": "Sep 09, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060950846.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189515621714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060950846.pdf",
+            "s3Key": "media_pdf/172060950846.pdf"
+          },
+          {
+            "originalIndex": 131,
+            "title": "Press Release of the Curtain Raiser Event of WSTS",
+            "date": "Aug 17, 2020",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172060963248.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545550event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172060963248.pdf",
+            "s3Key": "media_pdf/172060963248.pdf"
+          },
+          {
+            "originalIndex": 133,
+            "title": "ISA-ADB, NDB, GCF, AfDB and AIIB joint declarations of Financial partnership.",
+            "date": "Mar 10, 2018",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068000848.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189549671714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068000848.pdf",
+            "s3Key": "media_pdf/172068000848.pdf"
+          },
+          {
+            "originalIndex": 134,
+            "title": "ISA Press Release World Future Energy Summit at Abu Dhabi",
+            "date": "Jan 18, 2018",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068007049.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189549511714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068007049.pdf",
+            "s3Key": "media_pdf/172068007049.pdf"
+          },
+          {
+            "originalIndex": 135,
+            "title": "The Interim Director General of the International Solar Alliance visits the National Solar Energy Institute (CEA/INES) on 14th December, 2017",
+            "date": "Dec 14, 2017",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718950641c2d5f391b58b7cff1996f01da5bdaa.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189506411714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718950641c2d5f391b58b7cff1996f01da5bdaa.pdf",
+            "s3Key": "media_pdf/1718950641c2d5f391b58b7cff1996f01da5bdaa.pdf"
+          },
+          {
+            "originalIndex": 136,
+            "title": "ISA - EBRD joint declaration on financial partnership",
+            "date": "Nov 02, 2017",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068037751.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189501431714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068037751.pdf",
+            "s3Key": "media_pdf/172068037751.pdf"
+          },
+          {
+            "originalIndex": 137,
+            "title": "Press Release on 4th ISC Meeting of ISA 5th October, 2016 New Delhi",
+            "date": "Oct 05, 2016",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068047852.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189500011714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068047852.pdf",
+            "s3Key": "media_pdf/172068047852.pdf"
+          },
+          {
+            "originalIndex": 138,
+            "title": "Press note on the ISA third programme",
+            "date": "May 24, 2016",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171895010382f4703d91e94a89bcb24aac9e5501.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189501031714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171895010382f4703d91e94a89bcb24aac9e5501.pdf",
+            "s3Key": "media_pdf/171895010382f4703d91e94a89bcb24aac9e5501.pdf"
+          },
+          {
+            "originalIndex": 139,
+            "title": "General Press Release on ISA's Ministerial Side Event on 22 April 2016",
+            "date": "Apr 22, 2016",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068080055pdf.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189498561714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068080055pdf.pdf",
+            "s3Key": "media_pdf/172068080055pdf.pdf"
+          },
+          {
+            "originalIndex": 140,
+            "title": "Press Release on UN and ISA Cell Joint Declaration",
+            "date": "Apr 22, 2016",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068070954.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189499061714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068070954.pdf",
+            "s3Key": "media_pdf/172068070954.pdf"
+          },
+          {
+            "originalIndex": 141,
+            "title": "General Press Release on ISA's Event on 25 January 2016",
+            "date": "Jan 25, 2016",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1720680867569.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189497121714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1720680867569.pdf",
+            "s3Key": "media_pdf/1720680867569.pdf"
+          },
+          {
+            "originalIndex": 142,
+            "title": "List of Participants 30 November, 2015",
+            "date": "Nov 30, 2015",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068096759.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189496671714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068096759.pdf",
+            "s3Key": "media_pdf/172068096759.pdf"
+          },
+          {
+            "originalIndex": 143,
+            "title": "COP-23 ISA Press Release",
+            "date": "Nov 30, 2015",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068031250.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189502501714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068031250.pdf",
+            "s3Key": "media_pdf/172068031250.pdf"
+          },
+          {
+            "originalIndex": 144,
+            "title": "ISA Declaration",
+            "date": "Nov 30, 2014",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068115961.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17206811591720601903171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068115961.pdf",
+            "s3Key": "media_pdf/172068115961.pdf"
+          },
+          {
+            "originalIndex": 145,
+            "title": "ISA Working Paper and list of prospective members",
+            "date": "Invalid Date",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068105860.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189496151714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068105860.pdf",
+            "s3Key": "media_pdf/172068105860.pdf"
+          },
+          {
+            "originalIndex": 146,
+            "title": "Appointment of the full time Interim Director General(IDG)",
+            "date": "Invalid Date",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/172068062153.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189550351714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "172068062153.pdf",
+            "s3Key": "media_pdf/172068062153.pdf"
+          },
+          {
+            "originalIndex": 147,
+            "title": "PM inaugurates first assembly of the International Solar Alliance",
+            "date": "Invalid Date",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718951020056e2261d41fe4aebb05b038c7ffbd.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189510201714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718951020056e2261d41fe4aebb05b038c7ffbd.pdf",
+            "s3Key": "media_pdf/1718951020056e2261d41fe4aebb05b038c7ffbd.pdf"
+          },
+          {
+            "originalIndex": 148,
+            "title": "ISA’s mission to Uganda:Set to pave the way for increased solar deployment",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715064399uganda.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714476016event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715064399uganda.pdf",
+            "s3Key": "media_pdf/1715064399uganda.pdf"
+          },
+          {
+            "originalIndex": 149,
+            "title": "Romania Joins the Global Solar Movement the 118th MemberCountry of the International SolarAlliance",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715064322118th.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475978event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715064322118th.pdf",
+            "s3Key": "media_pdf/1715064322118th.pdf"
+          },
+          {
+            "originalIndex": 150,
+            "title": "India hosts the 6th Session of the International Solar Alliance Assembly at New Delhi",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17150637046session.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475947event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17150637046session.pdf",
+            "s3Key": "media_pdf/17150637046session.pdf"
+          },
+          {
+            "originalIndex": 151,
+            "title": "International Solar Alliance’s Global Solar Facility set to receive a capital contribution of $35 million dollars",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715063608$35.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475875event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715063608$35.pdf",
+            "s3Key": "media_pdf/1715063608$35.pdf"
+          },
+          {
+            "originalIndex": 152,
+            "title": "Solar in Nepal's energy mix will bring the twin benefit of stimulating the economy & accelerating clean energy transitions-International Solar Alliance ISA",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715063549nepal.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475860event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715063549nepal.pdf",
+            "s3Key": "media_pdf/1715063549nepal.pdf"
+          },
+          {
+            "originalIndex": 153,
+            "title": "International Solar Alliance ISA inks a memorandum ofcooperation with Airports Council International (ACI) to increase the deployment of solar across airports globally",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715063450airports.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475847event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715063450airports.pdf",
+            "s3Key": "media_pdf/1715063450airports.pdf"
+          },
+          {
+            "originalIndex": 154,
+            "title": "ISA's 5th Regional Meeting of the Asia Pacific Region 2023 chartscourse towards solar-powered future ahead of COP28",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715063366isa5th.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714475823event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715063366isa5th.pdf",
+            "s3Key": "media_pdf/1715063366isa5th.pdf"
+          },
+          {
+            "originalIndex": 155,
+            "title": "The Abu Dhabi meeting of ISA’sAsia-Pacific region charts course towards solar-powered future ahead of COP28",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715063006abu%20dhabi.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714476848event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715063006abu dhabi.pdf",
+            "s3Key": "media_pdf/1715063006abu dhabi.pdf"
+          },
+          {
+            "originalIndex": 156,
+            "title": "ISA announces winners of the SolarX Startup Challenge: Boosting Solar Innovation inAfrica",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062895winners.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714476986event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062895winners.pdf",
+            "s3Key": "media_pdf/1715062895winners.pdf"
+          },
+          {
+            "originalIndex": 157,
+            "title": "Multilateral Collaboration Key toSecuring the Future of Solar Energy Supply-InternationalSolar Alliance",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062529key.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714478113event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062529key.pdf",
+            "s3Key": "media_pdf/1715062529key.pdf"
+          },
+          {
+            "originalIndex": 158,
+            "title": "Press Release: Eighth Meeting ofStanding Committee of International Solar Alliance held in Delhi",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062213meeting.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714479600event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062213meeting.pdf",
+            "s3Key": "media_pdf/1715062213meeting.pdf"
+          },
+          {
+            "originalIndex": 159,
+            "title": "ISA and HIEx, with support of theEU, as knowledge partner, held ahigh-level roundtable discussion on the sidelines of the World Health Assembly 2023",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715062093hiex.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714479846event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715062093hiex.pdf",
+            "s3Key": "media_pdf/1715062093hiex.pdf"
+          },
+          {
+            "originalIndex": 160,
+            "title": "International Solar Alliance ISA & United Nations Development Programme (UNDP)launch pilot projects in 10 African ISA Member Countries",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171506199310africans.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714481333event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171506199310africans.pdf",
+            "s3Key": "media_pdf/171506199310africans.pdf"
+          },
+          {
+            "originalIndex": 161,
+            "title": "International Solar Alliance hosts13 African countries in New Delhi to share best practices in solar deployment",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171506180813african.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482015event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171506180813african.pdf",
+            "s3Key": "media_pdf/171506180813african.pdf"
+          },
+          {
+            "originalIndex": 162,
+            "title": "International Solar Alliance ISA and Global Energy Alliance for People and Planet(GEAPP) sign agreement to boost solar deployment",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061584geapp.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482415event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061584geapp.pdf",
+            "s3Key": "media_pdf/1715061584geapp.pdf"
+          },
+          {
+            "originalIndex": 163,
+            "title": "New Roadmap Provides Path to Rapidly and Equitably Scaling Global Sola Investment and Deployment",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061462deployment.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482614event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061462deployment.pdf",
+            "s3Key": "media_pdf/1715061462deployment.pdf"
+          },
+          {
+            "originalIndex": 164,
+            "title": "Press Note Curtain Raise",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715061277raiser.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714482948event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715061277raiser.pdf",
+            "s3Key": "media_pdf/1715061277raiser.pdf"
+          },
+          {
+            "originalIndex": 165,
+            "title": "ISA, EU and France present two new projects on Capacity Building giving a push to solar energy adoption by Knowledge sharing",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060961eu.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714539543event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060961eu.pdf",
+            "s3Key": "media_pdf/1715060961eu.pdf"
+          },
+          {
+            "originalIndex": 166,
+            "title": "International Solar Alliance ISA and Government of Federal Democratic Republic of Ethiopia come together to sign multiple agreements",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060871gov.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714539828event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060871gov.pdf",
+            "s3Key": "media_pdf/1715060871gov.pdf"
+          },
+          {
+            "originalIndex": 167,
+            "title": "INTERNATIONAL SOLAR ALLIANCE ISA and BUNDESVERBAND SOLARWIRTSCHAFT E.V (BSW SOLAR) join forces at INTERSOLAR EUROPE to define agenda for future association.",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060762international.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714540003event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060762international.pdf",
+            "s3Key": "media_pdf/1715060762international.pdf"
+          },
+          {
+            "originalIndex": 168,
+            "title": "President of European Commission H.E. Ursula von der Leyen and President of ISA Assembly, Minister of Power & New and Renewable Energy",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060704president.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714540544event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060704president.pdf",
+            "s3Key": "media_pdf/1715060704president.pdf"
+          },
+          {
+            "originalIndex": 169,
+            "title": "ISA-NTPC meeting with Ambassadors and High Commissioners of member countries interested in ISA Program-06 aiming towards implementation of solar parks",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060481projects.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714540802event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060481projects.pdf",
+            "s3Key": "media_pdf/1715060481projects.pdf"
+          },
+          {
+            "originalIndex": 170,
+            "title": "The International Solar Alliance and Elsevier Solar launch Compass, with AmbassadorStephane Crouzat at COP26",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715000991the26.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714541691event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715000991the26.pdf",
+            "s3Key": "media_pdf/1715000991the26.pdf"
+          },
+          {
+            "originalIndex": 171,
+            "title": "International Solar Alliance partners with newly launched Global Energy Alliance for Peopleand Planet (GEAPP) to accelerate energy transition (French)",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715000679isfrench.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714542374event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715000679isfrench.pdf",
+            "s3Key": "media_pdf/1715000679isfrench.pdf"
+          },
+          {
+            "originalIndex": 172,
+            "title": "Fourth Assembly of the International Solar Alliance closes with a promise to achieve $1 trillion global in solar investments by 2030",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714999364fa2030.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714543290event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714999364fa2030.pdf",
+            "s3Key": "media_pdf/1714999364fa2030.pdf"
+          },
+          {
+            "originalIndex": 173,
+            "title": "European Commission Executive-Vice President for the European Green Deal Mr. Frans Timmermans participates in the opening session of the ISA Assembly",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171499918264f.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714543520event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171499918264f.pdf",
+            "s3Key": "media_pdf/171499918264f.pdf"
+          },
+          {
+            "originalIndex": 174,
+            "title": "Solar energy is the most powerful tool that the world has in its toolkit to combat climate crisis:John Kerry, U.S. Special Presidential Envoy for Climate",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714998566sei.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714543705event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714998566sei.pdf",
+            "s3Key": "media_pdf/1714998566sei.pdf"
+          },
+          {
+            "originalIndex": 175,
+            "title": "Bloomberg Philanthropies announces new partnership with International Solar Alliance to mobilize $1 trillion in solar financing",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714998478bpa88.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714543839event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714998478bpa88.pdf",
+            "s3Key": "media_pdf/1714998478bpa88.pdf"
+          },
+          {
+            "originalIndex": 176,
+            "title": "11 ISA Member Countries to receive technical and financial support of up to USD 50,000 for demonstration solar projects initiative",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171499839711i.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714543980event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171499839711i.pdf",
+            "s3Key": "media_pdf/171499839711i.pdf"
+          },
+          {
+            "originalIndex": 177,
+            "title": "World leaders to address 4th International Solar Alliance General Assembly on October 18th – 21st 2021",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714998174wlt.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714544621event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714998174wlt.pdf",
+            "s3Key": "media_pdf/1714998174wlt.pdf"
+          },
+          {
+            "originalIndex": 178,
+            "title": "Press Release - OSOWOG Strategic Inception Workshop",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997882pro.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714544719event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997882pro.pdf",
+            "s3Key": "media_pdf/1714997882pro.pdf"
+          },
+          {
+            "originalIndex": 179,
+            "title": "Press Release - Dr. Ajay Mathur takes over as the New Director -general of the International Solar Alliance ISA",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1715060130pressreleasedr.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714544860event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1715060130pressreleasedr.pdf",
+            "s3Key": "media_pdf/1715060130pressreleasedr.pdf"
+          },
+          {
+            "originalIndex": 180,
+            "title": "Press Release- First special session of the ISA Assembly",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997577prf.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714544975event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997577prf.pdf",
+            "s3Key": "media_pdf/1714997577prf.pdf"
+          },
+          {
+            "originalIndex": 181,
+            "title": "Press Release- ISA Solar Awards 2020",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997476pr20.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545042event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997476pr20.pdf",
+            "s3Key": "media_pdf/1714997476pr20.pdf"
+          },
+          {
+            "originalIndex": 182,
+            "title": "Press Release- 3rd Assembly of the ISA",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997386pr3.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545090event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997386pr3.pdf",
+            "s3Key": "media_pdf/1714997386pr3.pdf"
+          },
+          {
+            "originalIndex": 183,
+            "title": "ISA-Barefoot-SUN Foundation Partnership Launch: Press Conference",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997301bc.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545143event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997301bc.pdf",
+            "s3Key": "media_pdf/1714997301bc.pdf"
+          },
+          {
+            "originalIndex": 184,
+            "title": "Press Release - Valedictory of First World Solar Technology Summit (WSTS)",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997169prv.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545451event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997169prv.pdf",
+            "s3Key": "media_pdf/1714997169prv.pdf"
+          },
+          {
+            "originalIndex": 185,
+            "title": "Press Release - Inaugural of First World Solar Technology Summit (WSTS)",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714997105pri.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545500event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714997105pri.pdf",
+            "s3Key": "media_pdf/1714997105pri.pdf"
+          },
+          {
+            "originalIndex": 186,
+            "title": "MNRE Hosts 2nd Assembly of International Solar Alliance ISA on 31 October in New Delhi",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714996546MNRE_Host2n_As.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545737event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714996546MNRE_Host2n_As.pdf",
+            "s3Key": "media_pdf/1714996546MNRE_Host2n_As.pdf"
+          },
+          {
+            "originalIndex": 187,
+            "title": "PM inaugurates first assembly of the International Solar Alliance",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1714995918PM_inaugurates_first.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1714545812event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1714995918PM_inaugurates_first.pdf",
+            "s3Key": "media_pdf/1714995918PM_inaugurates_first.pdf"
+          },
+          {
+            "originalIndex": 188,
+            "title": "Declaration on the occasion to launch the International Solar Alliance of countries dedicated to the promotion of solar energy",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/171894911019634c5c76858253b25cea00651761.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "171894911019634c5c76858253b25cea00651761.pdf",
+            "s3Key": "media_pdf/171894911019634c5c76858253b25cea00651761.pdf"
+          },
+          {
+            "originalIndex": 189,
+            "title": "ISA Framework Agreement receives 15 ratifications",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/17189502083ea82509578af6cf14d32f6fab2152.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189502081714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "17189502083ea82509578af6cf14d32f6fab2152.pdf",
+            "s3Key": "media_pdf/17189502083ea82509578af6cf14d32f6fab2152.pdf"
+          },
+          {
+            "originalIndex": 190,
+            "title": "MNRE Hosts 2nd Assembly of International Solar Alliance (ISA) on 31 October in New Delhi",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718951307056e2261d41fe4aebb05b038c7ffbd.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189513071714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718951307056e2261d41fe4aebb05b038c7ffbd.pdf",
+            "s3Key": "media_pdf/1718951307056e2261d41fe4aebb05b038c7ffbd.pdf"
+          },
+          {
+            "originalIndex": 191,
+            "title": "India hosts the 6th Session of the International Solar Alliance Assembly at New Delhi",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718954413882d506a.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189544131714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718954413882d506a.pdf",
+            "s3Key": "media_pdf/1718954413882d506a.pdf"
+          },
+          {
+            "originalIndex": 192,
+            "title": "International Solar Alliance Backs Innovative Solar Projects in Madagascar at Key Workshop",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1718955613e42c160f0b4c2309ff081ad660f723.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/17189556131714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1718955613e42c160f0b4c2309ff081ad660f723.pdf",
+            "s3Key": "media_pdf/1718955613e42c160f0b4c2309ff081ad660f723.pdf"
+          },
+          {
+            "originalIndex": 193,
+            "title": "ISA Announces the International Solar Festival 2024",
+            "date": "Jan 01, 1970",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1719993014SF.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/171999290117189491101714475962event.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1719993014SF.pdf",
+            "s3Key": "media_pdf/1719993014SF.pdf"
+          }
+        ]
+      }
+    },
+    "Media Coverage": {
+      "count": 25,
+      "folders": {
+        "multi_documents_upload": [
+          {
+            "originalIndex": 195,
+            "title": "Media Coverage- ISA at World Economic Forum 2026",
+            "date": "Apr 06, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/multi_documents_upload/1775456657World_Economic_Forum.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1775456751_Word_econo.png",
+            "fileType": "pdf",
+            "sourceFolder": "multi_documents_upload",
+            "filename": "1775456657World_Economic_Forum.pdf",
+            "s3Key": "multi_documents_upload/1775456657World_Economic_Forum.pdf"
+          },
+          {
+            "originalIndex": 196,
+            "title": "Media Coverage- India AI Impact Summit 2026",
+            "date": "Apr 06, 2026",
+            "sourceUrl": "https://old.isa.int/uploads/multi_documents_upload/1775454025AI_Summit_Media_Coverage.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1775453747_Media_Coverage-_India_AI_Impact_Summit_2026.png",
+            "fileType": "pdf",
+            "sourceFolder": "multi_documents_upload",
+            "filename": "1775454025AI_Summit_Media_Coverage.pdf",
+            "s3Key": "multi_documents_upload/1775454025AI_Summit_Media_Coverage.pdf"
+          },
+          {
+            "originalIndex": 209,
+            "title": "Media Coverage- ISA at COP30",
+            "date": "Dec 17, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/multi_documents_upload/1765969512Media_Coverage_Report-_November_2025_-_ISA_at_Cop30.pptx.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1765969565_Screenshot_2025-12-17_163244.png",
+            "fileType": "pdf",
+            "sourceFolder": "multi_documents_upload",
+            "filename": "1765969512Media_Coverage_Report-_November_2025_-_ISA_at_Cop30.pptx.pdf",
+            "s3Key": "multi_documents_upload/1765969512Media_Coverage_Report-_November_2025_-_ISA_at_Cop30.pptx.pdf"
+          },
+          {
+            "originalIndex": 259,
+            "title": "Solar EVs are a ray of hope for cutting emissions",
+            "date": "Jun 09, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/multi_documents_upload/1749538962Solar.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1749538228_Screenshot_2025-06-10_114753.png",
+            "fileType": "pdf",
+            "sourceFolder": "multi_documents_upload",
+            "filename": "1749538962Solar.pdf",
+            "s3Key": "multi_documents_upload/1749538962Solar.pdf"
+          }
+        ],
+        "media_pdf": [
+          {
+            "originalIndex": 211,
+            "title": "Media and Social Media Coverage Sheet - ISA - Bhutan engagement",
+            "date": "Dec 05, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/media_pdf/1764928951_Bhutan_Mission_-_Media_Coverage.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1770811132_Bhutan_coverage_1.png",
+            "fileType": "pdf",
+            "sourceFolder": "media_pdf",
+            "filename": "1764928951_Bhutan_Mission_-_Media_Coverage.pdf",
+            "s3Key": "media_pdf/1764928951_Bhutan_Mission_-_Media_Coverage.pdf"
+          }
+        ],
+        "multi_file_download": [
+          {
+            "originalIndex": 215,
+            "title": "Eighth Session of the ISA Assembly",
+            "date": "Nov 06, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/8923677983",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1764829009_eighth_assembly.jpeg",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "8923677983",
+            "s3Key": "multi_file_download/8923677983"
+          },
+          {
+            "originalIndex": 221,
+            "title": "Media Coverage Report - Curtain Raiser",
+            "date": "Oct 09, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/5737573917",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1764826124_Screenshot_4-12-2025_105748_isa.int.jpeg",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "5737573917",
+            "s3Key": "multi_file_download/5737573917"
+          },
+          {
+            "originalIndex": 224,
+            "title": "Bizweek_Mauritius_14 September 2025",
+            "date": "Sep 14, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/8233567772",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1757936040_image.jpeg",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "8233567772",
+            "s3Key": "multi_file_download/8233567772"
+          },
+          {
+            "originalIndex": 225,
+            "title": "Seventh Meeting of The ISA Regional Committee for the Africa Region",
+            "date": "Sep 12, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/1969533866",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1757660276_ISA_Africa_Region.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "1969533866",
+            "s3Key": "multi_file_download/1969533866"
+          },
+          {
+            "originalIndex": 235,
+            "title": "LAC RCM 2025 | Pre and post-event media coverage",
+            "date": "Aug 21, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/1877508707",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1755758794_LAC_RCM_2025__Pre_and_post-event_media_coverage.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "1877508707",
+            "s3Key": "multi_file_download/1877508707"
+          },
+          {
+            "originalIndex": 237,
+            "title": "Mission to Ethiopia, August 2025",
+            "date": "Aug 13, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/9981515108",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1756129999_ETHOPIa.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "9981515108",
+            "s3Key": "multi_file_download/9981515108"
+          },
+          {
+            "originalIndex": 250,
+            "title": "ISA Has Shone A Path to Clean Energy",
+            "date": "Jul 02, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/2122443714",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1751439704_ISA_Has_Shone_A_Path_to_Clean_Energy.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "2122443714",
+            "s3Key": "multi_file_download/2122443714"
+          },
+          {
+            "originalIndex": 275,
+            "title": "Media Delegation to Mauritius April 2025",
+            "date": "Apr 08, 2025",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/6289407653",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1748499823_Media_Delegation_to_Mauritius.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "6289407653",
+            "s3Key": "multi_file_download/6289407653"
+          },
+          {
+            "originalIndex": 287,
+            "title": "Seventh Session of the ISA Assembly 2024",
+            "date": "Nov 03, 2024",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/8220393464",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1748499561_ISA_Banner_V1.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "8220393464",
+            "s3Key": "multi_file_download/8220393464"
+          },
+          {
+            "originalIndex": 288,
+            "title": "Media Coverage First International Solar Festival 2024",
+            "date": "Sep 11, 2024",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/1801301220",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1726747364ISA.jpg",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "1801301220",
+            "s3Key": "multi_file_download/1801301220"
+          },
+          {
+            "originalIndex": 289,
+            "title": "First International Solar Festival 2024",
+            "date": "Sep 11, 2024",
+            "sourceUrl": "https://old.isa.int/multi_file_download/user_file/8741314284",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1748499242_SF2024.png",
+            "fileType": "download_binary",
+            "sourceFolder": "multi_file_download",
+            "filename": "8741314284",
+            "s3Key": "multi_file_download/8741314284"
+          }
+        ],
+        "isa_documents": [
+          {
+            "originalIndex": 239,
+            "title": "APAC RCM 2025 | Colombo, Sri Lanka | Media Coverage—Pre-Event Coverage",
+            "date": "Jul 23, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/isa_documents/PreeventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025-Google%20Sheets.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1753257025_Srilanka.png",
+            "fileType": "pdf",
+            "sourceFolder": "isa_documents",
+            "filename": "PreeventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025-Google Sheets.pdf",
+            "s3Key": "isa_documents/PreeventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025-Google Sheets.pdf"
+          },
+          {
+            "originalIndex": 240,
+            "title": "APAC RCM 2025 | Colombo, Sri Lanka | Media Coverage—Post-Event Coverage",
+            "date": "Jul 23, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/isa_documents/PosteventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025%20GoogleSheets.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1753257047_Srilanka.png",
+            "fileType": "pdf",
+            "sourceFolder": "isa_documents",
+            "filename": "PosteventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025 GoogleSheets.pdf",
+            "s3Key": "isa_documents/PosteventSriLanka-7thRegionalCommiteeMeetingofISAJuly2025 GoogleSheets.pdf"
+          },
+          {
+            "originalIndex": 241,
+            "title": "World Expo 2025 | Osaka, Japan | Media Coverage | Pre-Event Coverage",
+            "date": "Jul 23, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/isa_documents/PreEventJapan-CEOCaucusISF2025-GoogleSheets.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1753258673_slider.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "isa_documents",
+            "filename": "PreEventJapan-CEOCaucusISF2025-GoogleSheets.pdf",
+            "s3Key": "isa_documents/PreEventJapan-CEOCaucusISF2025-GoogleSheets.pdf"
+          },
+          {
+            "originalIndex": 242,
+            "title": "World Expo 2025 | Osaka, Japan | Media Coverage | Post-Event Coverage",
+            "date": "Jul 23, 2025",
+            "sourceUrl": "https://old.isa.int/uploads/isa_documents/posteventJapan-CEOCaucusISF2025-GoogleSheets.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1753258634_slider.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "isa_documents",
+            "filename": "posteventJapan-CEOCaucusISF2025-GoogleSheets.pdf",
+            "s3Key": "isa_documents/posteventJapan-CEOCaucusISF2025-GoogleSheets.pdf"
+          }
+        ],
+        "assets_front": [
+          {
+            "originalIndex": 247,
+            "title": "Daily Mirror - Sri Lanka",
+            "date": "Jul 16, 2025",
+            "sourceUrl": "https://old.isa.int/assets_front/img/apac_rcm/DailyMirrorSriLankaLatest.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1752679088_Blackout.png",
+            "fileType": "pdf",
+            "sourceFolder": "assets_front",
+            "filename": "DailyMirrorSriLankaLatest.pdf",
+            "s3Key": "assets_front/DailyMirrorSriLankaLatest.pdf"
+          },
+          {
+            "originalIndex": 257,
+            "title": "Europe RCM 2025 | Brussels, Belgium | Pre-event coverage",
+            "date": "Jun 10, 2025",
+            "sourceUrl": "https://old.isa.int/assets_front/img/europe_rcm/media/EuropeRCM2025%20_10-12June_Brussels_Belgium_Coveragepremeeting.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1750752945_image001.png",
+            "fileType": "pdf",
+            "sourceFolder": "assets_front",
+            "filename": "EuropeRCM2025 _10-12June_Brussels_Belgium_Coveragepremeeting.pdf",
+            "s3Key": "assets_front/EuropeRCM2025 _10-12June_Brussels_Belgium_Coveragepremeeting.pdf"
+          },
+          {
+            "originalIndex": 258,
+            "title": "Europe RCM 2025 | Brussels, Belgium | Post-event coverage",
+            "date": "Jun 10, 2025",
+            "sourceUrl": "https://old.isa.int/assets_front/img/europe_rcm/media/EuropeRCM2025%20_10-12June_Brussels_Belgium_CoveragePostMeeting.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1750753003_image001.png",
+            "fileType": "pdf",
+            "sourceFolder": "assets_front",
+            "filename": "EuropeRCM2025 _10-12June_Brussels_Belgium_CoveragePostMeeting.pdf",
+            "s3Key": "assets_front/EuropeRCM2025 _10-12June_Brussels_Belgium_CoveragePostMeeting.pdf"
+          },
+          {
+            "originalIndex": 281,
+            "title": "COP29: LOW TARIFFS LOAN SYNDICATION KEY TO KEEPING UP WITH SOLAR",
+            "date": "Nov 21, 2024",
+            "sourceUrl": "https://old.isa.int/assets_front/img/publications/interviewbyHumbertoJRocha_DowJonesUS.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1750842581_Screenshot_2025-06-25_143853.png",
+            "fileType": "pdf",
+            "sourceFolder": "assets_front",
+            "filename": "interviewbyHumbertoJRocha_DowJonesUS.pdf",
+            "s3Key": "assets_front/interviewbyHumbertoJRocha_DowJonesUS.pdf"
+          }
+        ],
+        "media_coverage": [
+          {
+            "originalIndex": 294,
+            "title": "Curtain Raiser of the International Solar Festival, June 24, 2024",
+            "date": "Jun 24, 2024",
+            "sourceUrl": "https://old.isa.int/uploads/media_coverage/Consolidated%20coverage%20report%20-%20BrusselsCurtain%20raiser.pdf",
+            "imgSrc": "https://old.isa.int//uploads/media_image/1720432652CurtainRaiser.jpg",
+            "fileType": "pdf",
+            "sourceFolder": "media_coverage",
+            "filename": "Consolidated coverage report - BrusselsCurtain raiser.pdf",
+            "s3Key": "media_coverage/Consolidated coverage report - BrusselsCurtain raiser.pdf"
+          }
+        ]
+      }
+    },
+    "Newsletters": {
+      "count": 40,
+      "folders": {
+        "news_letter_pdf": [
+          {
+            "originalIndex": 412,
+            "title": "Solar Horizons - Jan-Mar 2026",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Magazine_Jan_-_Mar_2026_2.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Magazine_Jan_-_Mar_2026_2.pdf",
+            "s3Key": "news_letter_pdf/ISA_Magazine_Jan_-_Mar_2026_2.pdf"
+          },
+          {
+            "originalIndex": 413,
+            "title": "ISA Newsletter, Sept. - Dec. 2025 1",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter,_Sept._-_Dec_._2025_1_.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter,_Sept._-_Dec_._2025_1_.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter,_Sept._-_Dec_._2025_1_.pdf"
+          },
+          {
+            "originalIndex": 414,
+            "title": "ISA Newsletter Month of July & August 2025",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter_Month_of_July_August_2025_2.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter_Month_of_July_August_2025_2.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter_Month_of_July_August_2025_2.pdf"
+          },
+          {
+            "originalIndex": 415,
+            "title": "ISA Newsletter, May & June 2025",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter,_May_June_2025_120725.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter,_May_June_2025_120725.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter,_May_June_2025_120725.pdf"
+          },
+          {
+            "originalIndex": 416,
+            "title": "ISA Newsletter April 2025",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter,_April_2025_15-05-20251.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter,_April_2025_15-05-20251.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter,_April_2025_15-05-20251.pdf"
+          },
+          {
+            "originalIndex": 417,
+            "title": "ISA Newsletter, March 2025",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter,_March_2025_4.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter,_March_2025_4.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter,_March_2025_4.pdf"
+          },
+          {
+            "originalIndex": 418,
+            "title": "ISA Newsletter, February 2025",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter,_February_2025.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter,_February_2025.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter,_February_2025.pdf"
+          },
+          {
+            "originalIndex": 419,
+            "title": "January 2025 Newsletter",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/January_2024_Newsletter1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "January_2024_Newsletter1.pdf",
+            "s3Key": "news_letter_pdf/January_2024_Newsletter1.pdf"
+          },
+          {
+            "originalIndex": 420,
+            "title": "COP29 Special Edition_December2024",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/COP29_Special_Edition_December20241.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "COP29_Special_Edition_December20241.pdf",
+            "s3Key": "news_letter_pdf/COP29_Special_Edition_December20241.pdf"
+          },
+          {
+            "originalIndex": 421,
+            "title": "November 2024 | Volume 34",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter_Month_of_November_2024_(2).pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter_Month_of_November_2024_(2).pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter_Month_of_November_2024_(2).pdf"
+          },
+          {
+            "originalIndex": 422,
+            "title": "September - October 2024 | Volumes 33 & 34",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter_September_October_2024_01112024.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter_September_October_2024_01112024.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter_September_October_2024_01112024.pdf"
+          },
+          {
+            "originalIndex": 423,
+            "title": "August 2024 Volume 32",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter_Month_of_August_2024_3.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter_Month_of_August_2024_3.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter_Month_of_August_2024_3.pdf"
+          },
+          {
+            "originalIndex": 424,
+            "title": "July 2024 Volume 31",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_Newsletter_Month_of_July_2024_Final1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_Newsletter_Month_of_July_2024_Final1.pdf",
+            "s3Key": "news_letter_pdf/ISA_Newsletter_Month_of_July_2024_Final1.pdf"
+          },
+          {
+            "originalIndex": 425,
+            "title": "June 2024 Volume 30",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/June3.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "June3.pdf",
+            "s3Key": "news_letter_pdf/June3.pdf"
+          },
+          {
+            "originalIndex": 426,
+            "title": "May 2024 Volume 29",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/df4ae707f1909fdf1e52ac45a3c72a.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "df4ae707f1909fdf1e52ac45a3c72a.pdf",
+            "s3Key": "news_letter_pdf/df4ae707f1909fdf1e52ac45a3c72a.pdf"
+          },
+          {
+            "originalIndex": 427,
+            "title": "April 2024 Volume 28",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/f4643772c972de66c72af06c35153e.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "f4643772c972de66c72af06c35153e.pdf",
+            "s3Key": "news_letter_pdf/f4643772c972de66c72af06c35153e.pdf"
+          },
+          {
+            "originalIndex": 428,
+            "title": "March 2024 Volume 27",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/e9f337e856eda5114f7b5b58091329.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "e9f337e856eda5114f7b5b58091329.pdf",
+            "s3Key": "news_letter_pdf/e9f337e856eda5114f7b5b58091329.pdf"
+          },
+          {
+            "originalIndex": 429,
+            "title": "February 2024 Volume 26",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/c2e2bb0d7c83b5356e8bfb.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "c2e2bb0d7c83b5356e8bfb.pdf",
+            "s3Key": "news_letter_pdf/c2e2bb0d7c83b5356e8bfb.pdf"
+          },
+          {
+            "originalIndex": 430,
+            "title": "January 2024 Volume 25",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/16a3c2df83d9d7278a56ce404b8a99.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "16a3c2df83d9d7278a56ce404b8a99.pdf",
+            "s3Key": "news_letter_pdf/16a3c2df83d9d7278a56ce404b8a99.pdf"
+          },
+          {
+            "originalIndex": 431,
+            "title": "December 2023 Volume 24",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/84446d29f1b8fbeda7a1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "84446d29f1b8fbeda7a1.pdf",
+            "s3Key": "news_letter_pdf/84446d29f1b8fbeda7a1.pdf"
+          },
+          {
+            "originalIndex": 432,
+            "title": "October & November 2023 Volume 22 & 23",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ec8ee564ea32106073d8b10da43ade.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ec8ee564ea32106073d8b10da43ade.pdf",
+            "s3Key": "news_letter_pdf/ec8ee564ea32106073d8b10da43ade.pdf"
+          },
+          {
+            "originalIndex": 433,
+            "title": "August - September 2023 Volume 20 & 21",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/de65d01446414cbb29bc95d856085b.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "de65d01446414cbb29bc95d856085b.pdf",
+            "s3Key": "news_letter_pdf/de65d01446414cbb29bc95d856085b.pdf"
+          },
+          {
+            "originalIndex": 434,
+            "title": "July 2023 Volume 19",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/15ddb26fce.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "15ddb26fce.pdf",
+            "s3Key": "news_letter_pdf/15ddb26fce.pdf"
+          },
+          {
+            "originalIndex": 435,
+            "title": "June 2023 Volume 18",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/338c7a515.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "338c7a515.pdf",
+            "s3Key": "news_letter_pdf/338c7a515.pdf"
+          },
+          {
+            "originalIndex": 436,
+            "title": "May 2023 Volume 17",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/7a7df585b3bbefb0a1cdb5569ed1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "7a7df585b3bbefb0a1cdb5569ed1.pdf",
+            "s3Key": "news_letter_pdf/7a7df585b3bbefb0a1cdb5569ed1.pdf"
+          },
+          {
+            "originalIndex": 437,
+            "title": "April 2023 Volume 16",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/4f8442343a47067a8a.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "4f8442343a47067a8a.pdf",
+            "s3Key": "news_letter_pdf/4f8442343a47067a8a.pdf"
+          },
+          {
+            "originalIndex": 438,
+            "title": "March 2023 Volume 15",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/7e3ccd97446114fb698c934.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "7e3ccd97446114fb698c934.pdf",
+            "s3Key": "news_letter_pdf/7e3ccd97446114fb698c934.pdf"
+          },
+          {
+            "originalIndex": 439,
+            "title": "January - February 2023 Volume 13 & 14",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ff581106becbca054.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ff581106becbca054.pdf",
+            "s3Key": "news_letter_pdf/ff581106becbca054.pdf"
+          },
+          {
+            "originalIndex": 440,
+            "title": "December 2022 Volume 12",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/6628b.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "6628b.pdf",
+            "s3Key": "news_letter_pdf/6628b.pdf"
+          },
+          {
+            "originalIndex": 441,
+            "title": "COP 27- Special Edition- November 2022",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/72f361acc1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "72f361acc1.pdf",
+            "s3Key": "news_letter_pdf/72f361acc1.pdf"
+          },
+          {
+            "originalIndex": 442,
+            "title": "Fifth Assembly- Special Edition- October 2022",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/0d8726e.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "0d8726e.pdf",
+            "s3Key": "news_letter_pdf/0d8726e.pdf"
+          },
+          {
+            "originalIndex": 443,
+            "title": "September 2022 Volume 9",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/24c23dccdab45089cf2e023ee866b9.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "24c23dccdab45089cf2e023ee866b9.pdf",
+            "s3Key": "news_letter_pdf/24c23dccdab45089cf2e023ee866b9.pdf"
+          },
+          {
+            "originalIndex": 444,
+            "title": "August 2022 Volume 8",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA8.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA8.pdf",
+            "s3Key": "news_letter_pdf/ISA8.pdf"
+          },
+          {
+            "originalIndex": 445,
+            "title": "July 2022 Volume 7",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA7.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA7.pdf",
+            "s3Key": "news_letter_pdf/ISA7.pdf"
+          },
+          {
+            "originalIndex": 446,
+            "title": "June 2022 Volume 6",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA6.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA6.pdf",
+            "s3Key": "news_letter_pdf/ISA6.pdf"
+          },
+          {
+            "originalIndex": 447,
+            "title": "May 2022 Volume 5",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/NEWSLETTER-Ma.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "NEWSLETTER-Ma.pdf",
+            "s3Key": "news_letter_pdf/NEWSLETTER-Ma.pdf"
+          },
+          {
+            "originalIndex": 448,
+            "title": "April 2022 Volume 4",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_NEWSLETTER-April_22.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_NEWSLETTER-April_22.pdf",
+            "s3Key": "news_letter_pdf/ISA_NEWSLETTER-April_22.pdf"
+          },
+          {
+            "originalIndex": 449,
+            "title": "March 2022 Volume 3",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/ISA_NEWSLETTER-March.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "ISA_NEWSLETTER-March.pdf",
+            "s3Key": "news_letter_pdf/ISA_NEWSLETTER-March.pdf"
+          },
+          {
+            "originalIndex": 450,
+            "title": "February 2022 Volume 2",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/NEWSLETTER-all.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "NEWSLETTER-all.pdf",
+            "s3Key": "news_letter_pdf/NEWSLETTER-all.pdf"
+          },
+          {
+            "originalIndex": 451,
+            "title": "January 2022 Volume 1",
+            "date": "",
+            "sourceUrl": "https://old.isa.int/uploads/news_letter_pdf/January_Volume_1.pdf",
+            "imgSrc": "https://old.isa.int/assets_front/pdf-icon.png",
+            "fileType": "pdf",
+            "sourceFolder": "news_letter_pdf",
+            "filename": "January_Volume_1.pdf",
+            "s3Key": "news_letter_pdf/January_Volume_1.pdf"
+          }
+        ]
+      }
+    }
+  }
+}
